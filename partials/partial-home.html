@@ -1,0 +1,65 @@
+<div class="off-canvas__container off-canvas__content">
+
+
+	<!-- <div class="container">
+		<button ng-click="hctrl.toggle()">
+			<span id="toggle-menu" class="glyphicon glyphicon-menu-hamburger"></span>
+		</button>
+	</div>-->
+
+	<div class="jumbotron text-center">
+		<h1>Landing Page Kibar</h1>
+		<p>Ini Landing page buat <span class="text-danger">Kibar</span>.</p>
+		<button class="btn btn-primary" ng-click="hctrl.toggle()">Coba klik deh !</button>
+	</div>
+
+	<div class=row ng-repeat="letter in alphabet track by $index" ng-if="$index % 4 == 0">
+		<div class="col-md-4 letter-box" ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]" ng-if="alphabet[i] != null">
+			
+		</div>
+	</div>
+
+
+	<section id="t-cards">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-11" style="margin-bottom:30px">
+					<button class="btn btn-primary"><span class="glyphicon glyphicon-th-large"></span>Toggle</button>
+				</div>
+			</div>
+			<div class=row ng-repeat="groupevents in events | groupBy:4">
+			<!--<div class="col-md-4 letter-box" ng-repeat="event in groupevents" >
+				<div class="panel panel-default">
+					<div class="panel-heading">{{ event.name }}</div>
+					<img src="{{ event.poster }}" holderFix></img>
+					<div class="panel-body">
+						<p>{{event.description }}</p>
+					</div>
+				</div>	
+			</div>-->
+			<a ui-sref="details">
+				<div class="col-sm-6 col-md-4" ng-repeat="event in groupevents">
+					<div class="panel panel-default panel-card">
+						<div class="panel-heading">
+							<img src="{{ event.poster }}" holderFix/>
+							<button class="btn btn-primary btn-sm" role="button">Join</button>
+						</div>
+						<div class="panel-figure">
+							<img class="img-responsive img-circle" src="{{event.logo}}"/>
+						</div>
+						<div class="panel-body text-center">
+							<h4 class="panel-header"><a href="https://twitter.com/maridlcrmn">{{ event.name }}</a></h4>
+							<small>{{event.description}}</small>
+						</div>
+
+					</div>   
+				</div>
+			</div>
+			</a>
+		</div>
+	</section>
+
+
+
+	
+</div>

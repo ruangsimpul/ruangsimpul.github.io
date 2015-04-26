@@ -1,0 +1,23 @@
+/* custom */
+
+.off-canvas__container {
+  position: relative;
+}
+
+.off-canvas__nav {
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  -webkit-user-drag: none;
+}
+
+/* Fawwaz */
+#toggle-menu{
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 999;
+}
