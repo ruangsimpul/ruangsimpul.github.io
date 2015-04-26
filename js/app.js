@@ -1,6 +1,6 @@
-var routerApp = angular.module('myApp', ['ui.router', 'cn.offCanvas','angular.filter']);
+var routerApp = angular.module('myApp', ['ui.router', 'cn.offCanvas','angular.filter','satellizer']);
 
-routerApp.config(function($stateProvider, $urlRouterProvider) {
+routerApp.config(function($stateProvider, $urlRouterProvider, $authProvider) {
 	
 	$urlRouterProvider.otherwise('/home');
 
@@ -20,6 +20,10 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         	controllerAs: 'dtlctrl',
         	templateUrl: 'partials/partial-details.html'
         });
+
+    $authProvider.facebook({
+    	clientId: '1380551305608706'
+    });
         
     });
 
@@ -59,8 +63,15 @@ routerApp.controller('homeController', function($scope,offCanvas) {
 			description: 'lorem ipsum again'
 		}
 	];
-}).controller('navCtrl', function(offCanvas) {
+}).controller('navCtrl', function(offCanvas,$scope, $auth) {
 	this.toggle = offCanvas.toggle;
+	this.name="test dong";
+
+	this.authenticate = function(provider){
+		console.log("authenticating for "+provider);
+		$auth.authenticate(provider);
+	};
+
 }).controller('detailController', function(offCanvas){
 	this.eventname="Hearing calon ketua OSKM ITB 2015";
 });
@@ -69,7 +80,7 @@ routerApp.factory('offCanvas', function(cnOffCanvas) {
 	return cnOffCanvas({
 		controller: 'navCtrl',
 		controllerAs: 'nav',
-		template: '<nav class="off-canvas__nav" ng-swipe-left="nav.toggle()">the nav</nav>'
+		templateUrl: 'partials/partial-offcanvas.html'
 	})
 });
 
