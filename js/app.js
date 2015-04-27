@@ -36,7 +36,7 @@ routerApp.controller('homeController', function($scope,offCanvas) {
 			poster: 'img/posteroktan.jpg',
 			logo: 'img/logoamisca.jpg',
 			time: '28 agustus 2014',
-			description: 'Oktan adalah olimpiade kimia tingkat nasional'
+			description: 'Oktan adalah olimpiade kimia tingkat nasional yang diselenggarakan oleh himpunan mahasiswa kimia "amisca" '
 		},
 		{
 			name:'Oprec OSKM',
@@ -52,7 +52,7 @@ routerApp.controller('homeController', function($scope,offCanvas) {
 			poster: 'img/posterinmove.jpg',
 			logo: 'img/logokabinet.png',
 			time: '28 agustus 2014',
-			description: 'consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non'
+			description: 'ITB inmove adalah gerakan mempertemukan para kreator sehingga bisa berkolaborasi.'
 		},
 		{
 			name:'Pasar Seni',
@@ -60,7 +60,15 @@ routerApp.controller('homeController', function($scope,offCanvas) {
 			poster: 'img/posterpasarseni.jpg',
 			logo: 'img/logokmsr.jpg',
 			time: '21 april 2014',
-			description: 'lorem ipsum again'
+			description: 'Pasar seni adalah event super langka yang diselenggarakan oleh KMSR(Keluarga Mahasiswa Seni Rupa). Temukan ...'
+		},
+		{
+			name:'Pengumuman Penerima Beasiswa',
+			location: 'bandung',
+			poster: 'img/posterlpdp.png',
+			logo: 'img/itb2.jpg',
+			time: '13 maret 2014',
+			description: 'Berikut adalah daftar penerima informasi beasiswa LPDP oleh Lembaga Kemahasiswaan'
 		}
 	];
 }).controller('navCtrl', function(offCanvas,$scope, $auth) {
