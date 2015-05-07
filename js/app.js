@@ -40,6 +40,11 @@ app.config(function($stateProvider, $urlRouterProvider, $authProvider) {
             controller: 'eventsController',
             controllerAs: 'evntCtrl',
             templateUrl: 'partials/partial-events.html'   
+        }).state('event',{
+            url:'/event?eventId',
+            controller:'eventDetailController',
+            controllerAs:'evntdtlCtrl',
+            templateUrl:'partials/partial-details.html' // lain kali mending yang detailscontroller diilangin aja
         });
 
     $authProvider.facebook({

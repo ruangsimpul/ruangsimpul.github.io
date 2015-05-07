@@ -1,11 +1,11 @@
 <div class="container">
 	<h3>Events </h3>
 	<ul>
-		<li ng-repeat="(evntId,evnt) in events">
-			<h4>{{ evnt.name }}</h4>
+		<li ng-repeat="(idx,evnt) in events">
+			<h4><a ui-sref="event({eventId : {{idx}} })">{{ evnt.name }}</a></h4>
 			<h6><b> {{ evnt.location }} </b></h6>
 			<h6><b> {{ evnt.date }} </b></h6>
-			<a href="#" ng-click="removeEvent(evntId)">X</a>			
+			<a href="#" ng-click="removeEvent(evnt)">X</a>			
 		</li>
 	</ul>
 </div>

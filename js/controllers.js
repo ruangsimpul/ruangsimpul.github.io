@@ -126,8 +126,11 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 		MyEvents.$add(event);
 	}
 
-	$scope.removeEvent = function(postId){
-		console.log(postId);
+	$scope.removeEvent = function(event){
+		MyEvents.$remove(event);
 	}
 
+}]).controller('eventDetailController',['$scope','$stateParams',function($scope,$stateParams){
+	$scope.hello = "world";
+	$scope.state = $stateParams.eventId;
 }]);
