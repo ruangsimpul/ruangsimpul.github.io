@@ -1,6 +1,5 @@
 /* custom */
 
-
 .off-canvas__container {
   position: relative;
 }
@@ -21,4 +20,58 @@
 	margin-left: 20px;
 	margin-top: 20px;
 	z-index: 999;
+}
+
+/* According to CSS Tricks */
+html,body{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  padding: 50px 0 0 0;
+}
+
+.modal-backdrop {
+  bottom: 0;
+}
+
+.page-wrap{
+  min-height: 100%;
+  margin-bottom: -60px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 60px; 
+}
+.site-footer {
+  background: orange;
+}
+
+/* According to Jasny example*/
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0;
+  }
+  .navbar {
+    right: auto;
+    background: none;
+    border: none;
+  }
 }
