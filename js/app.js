@@ -68,7 +68,7 @@ app.factory('offCanvas', function(cnOffCanvas) {
 }).factory('MyAuth',['$firebaseAuth',function($firebaseAuth){
     var ref = new Firebase('https://kibar.firebaseio.com');
     return $firebaseAuth(ref);
-}]).factory('Events',['$firebaseArray',function($firebaseArray){
+}]).factory('MyEvents',['$firebaseArray',function($firebaseArray){
     var ref = new Firebase('https://kibar.firebaseio.com');
     return $firebaseArray(ref.child('events'));
 }]);

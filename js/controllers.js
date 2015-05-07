@@ -117,12 +117,17 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 		});
 	};
 
-}]).controller('eventsController',function($scope){
+}]).controller('eventsController',['$scope','MyEvents',function($scope,MyEvents){
 	$scope.helo = 'world';
-	$scope.events = [];
+	$scope.events = MyEvents;
 	$scope.event={'name':'name1','location':'location1','date':'tes'}
-	/*$scope.addEvent = function(event){
-		Events.$add(event);
-	}*/
 
-});
+	$scope.addEvent = function(event){
+		MyEvents.$add(event);
+	}
+
+	$scope.removeEvent = function(postId){
+		console.log(postId);
+	}
+
+}]);
