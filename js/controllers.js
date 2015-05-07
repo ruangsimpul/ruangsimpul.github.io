@@ -47,30 +47,7 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 		*/
 	];
 
-	$scope.items = ['item1', 'item2', 'item3'];
 
-	$scope.animationsEnabled = true;
-
-	$scope.open = function (size) {
-
-		var modalInstance = $modal.open({
-			animation: $scope.animationsEnabled,
-			templateUrl: 'partials/partial-modal-login.html',
-			controller: 'ModalInstanceCtrl',
-			size: size,
-			resolve: {
-				items: function () {
-					return $scope.items;
-				}
-			}
-		});
-
-		modalInstance.result.then(function (selectedItem) {
-			$scope.selected = selectedItem;
-		}, function () {
-			$log.info('Modal dismissed at: ' + new Date());
-		});
-	};
 	
 
 
@@ -87,22 +64,57 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 		$auth.authenticate(provider);
 	};
 
-}).controller('detailController', function(offCanvas){
+}).controller('detailController', ['currentAuth',function(currentAuth){
 	this.eventname="Hearing calon ketua OSKM ITB 2015";
-}).controller('OffCanvasCtrl',function($scope,$modal){
+
+
+
+}]).controller('OffCanvasCtrl',function($scope,$modal){
 	
-}).controller('ModalInstanceCtrl',function($scope){
-	$scope.items = ['item1', 'item2', 'item3'];
+	$scope.open = function () {
+		var modalInstance = $modal.open({
+			animation: true,
+			templateUrl: 'partials/partial-modal-login.html',
+			controller: 'ModalLoginController',
+			size: 'sm',
+		});
 
-	$scope.selected = {
-		item: $scope.items[0]
+		modalInstance.result.then(function () {
+		}, function () {
+			console.log('Modal dismissed at: ' + new Date());
+		});
+	};
+	
+}).controller('ModalLoginController',['$scope','MyAuth','$location',function($scope,MyAuth,$location){
+
+	// Register new user
+	$scope.createUser = function(){
+		$scope.message = null;
+		$scope.error = null;
+
+		MyAuth.$createUser({
+			email: $scope.email,
+			password: $scope.password
+		}).then(function(userData) {
+			$scope.message = "User created with uid: " + userData.uid;
+		}).catch(function(error) {
+			$scope.error = error;
+		});
+	}
+
+
+
+	$scope.email = 'fawwazmuhammad@gmail.com';
+	$scope.password = 'password';
+
+	$scope.login = function(email, pass) {
+		$scope.err = null;
+		Auth.$authWithPassword({ email: email, password: pass }, {rememberMe: false})
+		.then(function(/* user */) {
+			$location.path('/details');
+		}, function(err) {
+			$scope.err = errMessage(err);
+		});
 	};
 
-	$scope.ok = function () {
-		$modalInstance.close($scope.selected.item);
-	};
-
-	$scope.cancel = function () {
-		$modalInstance.dismiss('cancel');
-	};
-});
+}]);

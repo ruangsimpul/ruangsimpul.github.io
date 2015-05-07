@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['ui.router', 'cn.offCanvas','angular.filter','satellizer','ui.bootstrap']);
+var app = angular.module('myApp', ['ui.router', 'cn.offCanvas','angular.filter','satellizer','ui.bootstrap','firebase']);
 
 app.config(function($stateProvider, $urlRouterProvider, $authProvider) {
 	
@@ -18,7 +18,22 @@ app.config(function($stateProvider, $urlRouterProvider, $authProvider) {
             url: '/details',
             controller: 'detailController',
         	controllerAs: 'dtlctrl',
-        	templateUrl: 'partials/partial-details.html'
+        	templateUrl: 'partials/partial-details.html',
+        	resolve:{
+        		'currentAuth':['MyAuth',function(MyAuth){
+        			return MyAuth.$requireAuth();
+        		}]
+        	}
+        })
+        .state('login',{
+        	url:'/login',
+        	controller: 'ModalLoginController',
+        	templateUrl: 'partials/partial-modal-login.html',
+        	resolve:{
+        		'currentAuth':['MyAuth',function(MyAuth){
+        			return MyAuth.$waitForAuth();
+        		}]
+        	}
         });
 
     $authProvider.facebook({
@@ -27,13 +42,27 @@ app.config(function($stateProvider, $urlRouterProvider, $authProvider) {
         
     });
 
+app.run(['$rootScope','$state',function($rootScope, $state){
+	$rootScope.$on("$stateChangeError", function(event, toState, toParams, fromState, fromParams, error) {
+		// We can catch the error thrown when the $requireAuth promise is rejected
+		// and redirect the user back to the home page
+		if (error === "AUTH_REQUIRED") {
+			$state.go("home");
+		}
+	});
+}]);
+
+
 app.factory('offCanvas', function(cnOffCanvas) {
 	return cnOffCanvas({
 		controller: 'navCtrl',
 		controllerAs: 'nav',
 		templateUrl: 'partials/partial-offcanvas.html'
 	})
-});
+}).factory('MyAuth',['$firebaseAuth',function($firebaseAuth){
+    var ref = new Firebase('https://kibar.firebaseio.com');
+    return $firebaseAuth(ref);
+}]);
 
 app.directive('holderFix', function () {
     return {
