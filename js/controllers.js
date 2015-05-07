@@ -117,4 +117,12 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 		});
 	};
 
-}]);
+}]).controller('eventsController',function($scope){
+	$scope.helo = 'world';
+	$scope.events = [];
+	$scope.event={'name':'name1','location':'location1','date':'tes'}
+	/*$scope.addEvent = function(event){
+		Events.$add(event);
+	}*/
+
+});

@@ -1,0 +1,53 @@
+<div class="container">
+	<h3>Events </h3>
+	<ul ng-repeat="evnt in events">
+		<li>
+			<h4>{{ evnt.name }}</h4>
+			<h6><b> {{ evnt.location }} </b></h6>
+			<h6><b> {{ evnt.date }} </b></h6>
+			<p> {{ evnt.shortdescription }}</p>
+			<p> {{ evnt.longdescription }} </p>
+			<p> {{ evnt.poster }} </p>
+			<p> {{ evnt.organizer }}</p>
+			<p> {{ evnt.channels }}</p>
+		</li>
+	</ul>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					Add Events
+				</div>
+				<div class="panel-body">
+					<form ng-submit="addEvent(event)">
+						<p>
+							Name :
+							<input type="text" ng-model="event.name">
+						</p>
+						<p>
+							Location:
+							<input type="text" ng-model="event.location">
+						</p>
+						<p>
+							Date :
+							<input type="text" ng-model="event.date">
+						</p>
+						<input type="submit" >
+					</form>
+
+					<div class="col-md-6">
+						<pre>Event : {{ event }}</pre>
+					</div>
+					<div class="col-md-6">
+						<pre>Events : {{ events}}</pre>
+					</div>
+					tes hello
+					{{helo}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

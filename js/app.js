@@ -34,6 +34,12 @@ app.config(function($stateProvider, $urlRouterProvider, $authProvider) {
         			return MyAuth.$waitForAuth();
         		}]
         	}
+        })
+        .state('events',{
+            url:'/events',
+            controller: 'eventsController',
+            controllerAs: 'evntCtrl',
+            templateUrl: 'partials/partial-events.html'   
         });
 
     $authProvider.facebook({
@@ -62,6 +68,9 @@ app.factory('offCanvas', function(cnOffCanvas) {
 }).factory('MyAuth',['$firebaseAuth',function($firebaseAuth){
     var ref = new Firebase('https://kibar.firebaseio.com');
     return $firebaseAuth(ref);
+}]).factory('Events',['$firebaseArray',function($firebaseArray){
+    var ref = new Firebase('https://kibar.firebaseio.com');
+    return $firebaseArray(ref.child('events'));
 }]);
 
 app.directive('holderFix', function () {
