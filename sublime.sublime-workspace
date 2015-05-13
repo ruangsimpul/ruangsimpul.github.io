@@ -1,0 +1,1870 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for	for"
+			],
+			[
+				"contin",
+				"continueTags"
+			],
+			[
+				"IN",
+				"InstanceList"
+			],
+			[
+				"line",
+				"linegroup"
+			],
+			[
+				"system",
+				"System"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"prepare",
+				"prepareStatement"
+			],
+			[
+				"print",
+				"print1by1"
+			],
+			[
+				"access",
+				"access_token_secret"
+			],
+			[
+				"consumer_",
+				"consumer_secret"
+			],
+			[
+				"jumlah",
+				"jumlahlayer"
+			],
+			[
+				"validate",
+				"validate_konten"
+			],
+			[
+				"id_",
+				"id_komentar"
+			],
+			[
+				"out",
+				"out_string"
+			],
+			[
+				"the_",
+				"the_jsons"
+			],
+			[
+				"the",
+				"the_json"
+			],
+			[
+				"respon",
+				"responseText"
+			],
+			[
+				"getE",
+				"getElementsByTagName"
+			],
+			[
+				"read",
+				"readyState"
+			],
+			[
+				"XM",
+				"XMLHttpRequest"
+			],
+			[
+				"mysql",
+				"mysql_close"
+			],
+			[
+				"input",
+				"input_tgl"
+			],
+			[
+				"inpu",
+				"input_tgl"
+			],
+			[
+				"row",
+				"row_komentar"
+			],
+			[
+				"result",
+				"result_komentar"
+			],
+			[
+				"id",
+				"id_post"
+			],
+			[
+				"nama",
+				"nama_file"
+			],
+			[
+				"fungsi",
+				"fungsi_urutan"
+			],
+			[
+				"bilangan",
+				"bilangan_real"
+			],
+			[
+				"get_user",
+				"get_userdata"
+			],
+			[
+				"clear",
+				"clearviewport"
+			],
+			[
+				"fo",
+				"for	For Loop"
+			],
+			[
+				"put",
+				"putpixel"
+			],
+			[
+				"current",
+				"current_user_can"
+			],
+			[
+				"set_str",
+				"set_string_posisi_train"
+			],
+			[
+				"set_s",
+				"set_string_posisi_train"
+			],
+			[
+				"ret",
+				"retDim"
+			],
+			[
+				"mous",
+				"mouse_angle"
+			],
+			[
+				"state",
+				"stateArray"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"bukti",
+				"bukti_transfer"
+			],
+			[
+				"divusi",
+				"divusi_payment_process_image"
+			],
+			[
+				"divusi_payment_subm",
+				"divusi_payment_submitted"
+			],
+			[
+				"wp_nonce",
+				"wp_nonce_field"
+			],
+			[
+				"get_current",
+				"get_current_user_id"
+			],
+			[
+				"current_user",
+				"get_current_user"
+			],
+			[
+				"num_",
+				"num_cat"
+			],
+			[
+				"angka",
+				"angka_input"
+			],
+			[
+				"jml",
+				"jmltitik"
+			],
+			[
+				"objek",
+				"objek_ke"
+			],
+			[
+				"MAX",
+				"MAX_INTERSECT"
+			],
+			[
+				"prio",
+				"priority"
+			],
+			[
+				"MAX_",
+				"MAX_OBJECT"
+			],
+			[
+				"curre",
+				"current_user_can"
+			],
+			[
+				"get_the_",
+				"get_the_id"
+			],
+			[
+				"have_",
+				"have_posts"
+			],
+			[
+				"registerpo",
+				"register_post_type	Register Post Type All Options"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"get_st",
+				"get_stylesheet_uri"
+			],
+			[
+				"wp_enq",
+				"wp_enqueue_style"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_script"
+			],
+			[
+				"register_post",
+				"register_post_type	Register Post Type All Options"
+			],
+			[
+				"bs",
+				"bs3-modal	bs3-modal"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"peng",
+				"penghalangturun"
+			],
+			[
+				"bres",
+				"bresenham"
+			],
+			[
+				"breh",
+				"bresenham"
+			],
+			[
+				"draw",
+				"drawpenghalang"
+			],
+			[
+				"getmax",
+				"getmaxy"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"mint",
+				"min-height"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"getma",
+				"getmaxy"
+			],
+			[
+				"threa",
+				"thread_counter"
+			],
+			[
+				"array",
+				"arraycandidate"
+			],
+			[
+				"kodeb",
+				"kodebarang"
+			],
+			[
+				"attr",
+				"AttributeName"
+			],
+			[
+				"Number",
+				"NumberOfItems"
+			],
+			[
+				"Gener",
+				"GeneralInformationParser"
+			],
+			[
+				"awal",
+				"brainAwal"
+			],
+			[
+				"cha",
+				"charmAwal"
+			],
+			[
+				"thread",
+				"thread_count"
+			],
+			[
+				"dataur",
+				"datauri"
+			],
+			[
+				"loi",
+				"LoginFesbuk"
+			],
+			[
+				"login",
+				"LoginFesbuk"
+			],
+			[
+				"acces",
+				"access_token"
+			],
+			[
+				"data",
+				"dataURItoBlob"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pita",
+				"pita_kanan"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"bslis",
+				"bs3-list-group:content	bs3-list-group-content"
+			],
+			[
+				"form",
+				"form_open	CI - Form Open"
+			],
+			[
+				"klin",
+				"klinik"
+			],
+			[
+				"klini",
+				"klinik"
+			],
+			[
+				"bslistgroup",
+				"bs3-list-group:content	bs3-list-group-content"
+			],
+			[
+				"bslist",
+				"bs3-list-group:linked	bs3-list-group-linked"
+			],
+			[
+				"ses",
+				"session_userdata	CI - Session - Retrieving Session Data"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"get_dokter",
+				"get_dokter_id_from_alias"
+			],
+			[
+				"sese",
+				"session_userdata	CI - Session - Retrieving Session Data"
+			],
+			[
+				"sess",
+				"session_userdata	CI - Session - Retrieving Session Data"
+			],
+			[
+				"klinik",
+				"klinik_model"
+			],
+			[
+				"kli",
+				"klinik_model"
+			],
+			[
+				"get",
+				"get	Get Elements"
+			],
+			[
+				"profile",
+				"profile_img_direktori_wrapper"
+			],
+			[
+				"edi",
+				"editor_dialog"
+			],
+			[
+				"templa",
+				"template"
+			],
+			[
+				"script",
+				"script_file"
+			],
+			[
+				"load",
+				"load_helper	CI - Load Helper File"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bs3danger",
+				"bs3-alert:danger	bs3-alert-danger"
+			],
+			[
+				"bsglyp",
+				"bs3-icon:glyphicon	bs3-icon-glyphicon"
+			],
+			[
+				"library",
+				"load_library	CI - Load Library"
+			],
+			[
+				"view",
+				"viewdata"
+			],
+			[
+				"bsnavbar",
+				"bs3-navbar:link	bs3-navbar-link"
+			],
+			[
+				"bs3-",
+				"bs3-input:month	bs3-input-month"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2995,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 3810,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 3115,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssjav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bookmarks",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"goto",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"bookmarks:",
+				"SublimeBookmarks: Remove A Bookmark"
+			],
+			[
+				"boookmarks",
+				"SublimeBookmarks: Show Bookmarks Only In Current File "
+			],
+			[
+				"show",
+				"SublimeBookmarks: Show All Bookmarks "
+			],
+			[
+				"addbo",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"addbook",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"bookmarks ",
+				"Bookmarks: Clear All"
+			],
+			[
+				"bookm",
+				"SublimeBookmarks: Show All Bookmarks "
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssc+",
+				"Set Syntax: C++"
+			],
+			[
+				"sspyt",
+				"Set Syntax: Python"
+			],
+			[
+				"ssjava",
+				"Set Syntax: Java"
+			],
+			[
+				"",
+				"Convert Case: Lower Case"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"regular",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"ssjv",
+				"Set Syntax: Java"
+			],
+			[
+				"ssp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"ssj",
+				"Set Syntax: Java"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"sspytho",
+				"Set Syntax: Python"
+			],
+			[
+				"sspython",
+				"Set Syntax: Python"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"num",
+				"InsertNums - No Preview"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"text",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"hht",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"jsp",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"ssx",
+				"Set Syntax: XML"
+			],
+			[
+				"SSC",
+				"Set Syntax: C++"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/OPENSHIFT/angularfire-seed/app/account/account.js",
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-events.html",
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-modal-login.html",
+		"/E/OPENSHIFT/angularfire-seed/app/components/firebase.utils/firebase.utils.js",
+		"/E/OPENSHIFT/ruangsimpul/client/js/app.js",
+		"/E/OPENSHIFT/ruangsimpul/client/js/controllers.js",
+		"/E/OPENSHIFT/angularfire-seed/app/components/auth/auth.js",
+		"/E/OPENSHIFT/ruangsimpul/client/index.html",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/types/CrossValidationIterator.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/PrintInput.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRF.java",
+		"/E/TA/mallet-2.0.7/laporantugasakhir",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
+		"/E/TA/mallet-2.0.7/project.sublime-workspace",
+		"/E/TA/mallet-2.0.7/runnerTAEvaluate.bat",
+		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
+		"/E/TA/mallet-2.0.7/select repairing query.sql",
+		"/E/TA/mallet-2.0.7/laporantaevaluate",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Instance.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/types/InstanceList.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/Pipe.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/Transducer.java",
+		"/E/OPENSHIFT/satubahasa/.jshintrc",
+		"/E/OPENSHIFT/satubahasa/app/scripts/app.js",
+		"/E/OPENSHIFT/satubahasa/app/views/main.html",
+		"/E/eclipse3/MyTokenizer/src/MyAnotatorText.java",
+		"/E/OPENSHIFT/satubahasa/Gruntfile.js",
+		"/E/OPENSHIFT/satubahasa/app/index.html",
+		"/E/eclipse3/MyTokenizer/src/MyTokenizer.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/CharSequence2TokenSequence.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/util/CharSequenceLexer.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/TokenSequence2FeatureSequence.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVector.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/FeatureSequence2FeatureVector.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/tsf/RegexMatches.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java",
+		"/E/TA/mallet-2.0.7/runnerTATest.bat",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/LineGroupString2TokenSequence.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVectorSequence.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/PrintInputAndTarget.java",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/maketrihed",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/tree.hed",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/triphone-ke-atas/triphone ke atas/log-lanjutan.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/mkclscript.pl",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/fixfulllist.pl",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/hmm4/hmmdefs",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/trainmfc.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/codetrain.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/log.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/wintri.mlf",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/lexicon",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/global.ded",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/triphone-ke-atas/triphone ke atas/mktri.led",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/HVite_log",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/hmm0/macros",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/hmm0/proto",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/trainprompts",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/phones0.mlf",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/phones1.mlf",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/monophones1",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/wlist",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/lexicon.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/resource/transkrip106-140",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/resource/transkrip71-105",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/resource/transkrip36-70",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/devin/nama alifa.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/codetest.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/testprompts",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/README-preparation.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/alifa/nama alifa.txt",
+		"/E/TA/mallet-2.0.7/pom.xml",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/Trainer.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/template/README-preparation.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/fawwaz/nama fawwaz.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/template/log.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/testmfc.scp",
+		"/C/Users/Asus/AppData/Roaming/Sublime Text 2/Packages/Insert Nums/Default (Windows).sublime-keymap",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetest.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetrain.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/testmfc.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/trainmfc.scp",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FC.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/InBracket.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/CompositeFeatureFactory.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeaturePipeline.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BinaryFeatureFactory.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BinaryFeaturePipe.java",
+		"/E/HTK/HTK-samples-3.3/samples/HTKTutorial/prompts2wlist",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/dictionary",
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-details.html",
+		"/E/eclipse3/MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/wordlist",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/parsed",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/grammar",
+		"/E/eclipse3/mycron/src/cronjava/MyCron.java",
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-offcanvas.html",
+		"/E/OPENSHIFT/ruangsimpul/client/css/style.css",
+		"/E/eclipse3/MyTokenizer/src/MyFilter.java",
+		"/E/TA/mallet-2.0.7/sandboxTA",
+		"/E/TA/mallet-2.0.7/raw_tweet_final.sql",
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-home.html",
+		"/E/OPENSHIFT/ruangsimpul/client/css/tumblr-card.css",
+		"/E/eclipse3/MyTokenizer/database lokal 26-04-15.sql",
+		"/E/eclipse3/MyTokenizer/raw_tweet_final.sql",
+		"/E/OPENSHIFT/satubahasa.github.io/_layouts/default.html",
+		"/E/OPENSHIFT/satubahasa.github.io/index.html",
+		"/C/xampp/htdocs/kibar/resources/views/events/create.blade.php",
+		"/C/xampp/htdocs/kibar/resources/views/events/show.blade.php",
+		"/C/xampp/htdocs/kibar/config/app.php",
+		"/E/OPENSHIFT/kibar-frontend/index.html",
+		"/E/OPENSHIFT/front-end-kibar/bower.json",
+		"/E/OPENSHIFT/front-end-kibar/.bowerrc",
+		"/C/Program Files/Weka-3-6/runner weka.bat",
+		"/E/S2/runner weka.bat",
+		"/E/S2/korpusnlp.csv",
+		"/C/xampp/htdocs/kibar/app/Http/Controllers/EventsController.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"E:\\OPENSHIFT\\angularfire-seed\\app",
+			"E:\\OPENSHIFT\\angularfire-seed",
+			"E:\\OPENSHFIT\\angularfire-seed,E:\\OPENSHIFT\\angularfire-seed",
+			"E:\\OPENSHFIT\\angularfire-seed",
+			"E:\\TA\\mallet-2.0.7",
+			"E:\\TA\\mallet-2.07",
+			"E:\\TA\\mallet-2.07\\",
+			"E:\\eclipse3\\MyTokenizer\\src",
+			"E:\\eclipse3\\MyTokenizer",
+			"E:\\TA\\mallet-2.0.7\\src\\cc\\mallet\\",
+			"E:\\TA\\mallet-2.0.7\\src\\cc\\mallet\\fst\\",
+			"E:\\TA\\mallet-2.0.7",
+			"E:\\eclipse3\\mallet-2.0.7",
+			"E:\\eclipse3\\seq-label\\src",
+			"E:\\eclipse3\\seq-labels\\src",
+			"E:\\TA\\mallet-2.0.7",
+			"E:\\adhmora\\Zephyr",
+			"E:\\Eclipse Workspace\\kadriana-android",
+			"C:\\xampp\\htdocs\\if3110-01-Simple-blog\\",
+			"C:\\xampp\\htdocs\\if3110-Simple-blog\\",
+			"E:\\Eclipse Workspace\\ion",
+			"E:\\Eclipse Workspace\\kadriana-android",
+			"C:\\xampp\\htdocs\\aby\\wp-content\\themes\\CleanResponse\\style.css",
+			"C:\\xampp\\htdocs\\aby\\wp-content\\themes\\CleanResponse",
+			"C:\\xampp\\htdocs\\aby\\wp-themes\\CleanResponse",
+			"E:\\Eclipse Workspace\\tubes_catandmouse",
+			"e:/Eclipse Workspace/tube_catandmouse",
+			"C:/xampp/htdocs/ppl/wp-content/themes/subscribelytheme-trial",
+			"C:/xampp/htdocs/ppl/wp-content/themes/",
+			"E:\\Eclipse Workspace\\tubes_catandmouse",
+			"E:\\Java Workspace\\tubes_catandmouse",
+			"E:\\Java Workspace\\cat",
+			"E:\\Java Workspace\\,E:\\Java Workspace\\cat",
+			"C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\lensa",
+			"C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\bem_undip",
+			"C:/xampp/htdocs/kalukis",
+			"E:\\Java Workspace\\ai",
+			"C:\\xampp\\htdocs\\kalukis",
+			"C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\",
+			"C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\bangjefry",
+			"C:\\xampp\\htdocs\\wordpress\\",
+			"C:\\xampp\\htdocs\\pyrocms",
+			"E:\\kalukis\\kalukis",
+			"C:\\xampp\\htdocs\\dokter",
+			"E:\\eclipse3\\lokal,C:\\xampp\\tomcat",
+			"E:\\eclipse3\\lokal",
+			"E:\\eclipse3\\IF3110-Tubes-II",
+			"C:\\xampp\\tomcat\\webapps",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"offcan",
+			"controller",
+			"login",
+			"Auth",
+			"weights",
+			"CRF:",
+			"CRF: Incrimental",
+			"Searching",
+			"CRF Incrimental",
+			"CRF:",
+			"CRF: Incrimental",
+			"setnexttweet",
+			"setnextgroup",
+			"informasi crf",
+			"train(",
+			"eval",
+			"testoption",
+			"eval",
+			"eval =",
+			"test(",
+			"testoption",
+			"eval",
+			"restArgs",
+			"exit(",
+			"testData",
+			"<<<<<<< HEAD",
+			"head",
+			"test",
+			"testdata",
+			"modified by fawwaz",
+			"precision",
+			"segmentStartTags",
+			"instancelist",
+			"description",
+			"segmentstarttags",
+			"crftrainerby",
+			"CRF crf",
+			"isnumber",
+			"testoption",
+			"lab",
+			"savesource",
+			"features",
+			"setcharsequence",
+			"testoption",
+			"@infobdgevent",
+			"nbestoption",
+			"e",
+			"p",
+			"i",
+			"u",
+			"a",
+			"tree.hed",
+			"wintri",
+			"E:\\kuliah\\NLP\\tugas\\asr\\tuts\\suara",
+			"source is ",
+			"Anotasi silahkan di",
+			"pipe",
+			"crf.getinputpipe",
+			"`raw_tweet`",
+			"raw_tweet",
+			"setsource",
+			"source",
+			"carrier",
+			"source",
+			"pipe",
+			"testoption",
+			"test",
+			"train",
+			"source",
+			"'\\n\\n",
+			";",
+			"(?<=;)(\\w+)",
+			"(<?=;)(\\w+)",
+			"sarkasme",
+			"negatif",
+			"netral",
+			"negatif",
+			"(?<=;)(\\w+)",
+			"(?<=;)(positif|negatif|sarkasme|netral)",
+			"(?<=;)(?>positif|negatif|sarkasme|netral)",
+			";",
+			"root",
+			"crfoptimizablebybatchlabellikelihood",
+			"iterationsoption",
+			"math.exp",
+			"math",
+			"Math.exp",
+			"ex[",
+			"WEIGHTS NAME",
+			"Weights NAME",
+			"dictionary",
+			"defaultlabel",
+			"factors",
+			"print",
+			"labels:",
+			"viterbioutputoption",
+			"labels",
+			"logger",
+			"logger.",
+			" logger",
+			"logger",
+			"System.out.println",
+			"System.out.println(",
+			"i-name",
+			"i-date",
+			" O",
+			"i-info",
+			"info",
+			"i-place",
+			"O",
+			"System.out.print",
+			"system",
+			"testOption",
+			"testoption",
+			"= train",
+			"\\w-\\w",
+			"7march",
+			"crf",
+			"maxLatticeFactory",
+			"transduce",
+			"MaxLatticeFactory",
+			"maxlatticefactory",
+			"maxLatticeFactory",
+			"CRF crf",
+			"includeinputoption",
+			"include-input",
+			"classify",
+			"tostring"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"C:\\Users\\Asus\\Dropbox\\Pemrosesan Suara S2\\templateFawwaz Baru",
+			"`raw_tweet_final`",
+			"'raw_tweet_final`",
+			"'\\n",
+			"\\n$1\\n",
+			"\\n$1\\b",
+			"\\n$1\\n",
+			";\\n$1\\n",
+			";\\n",
+			"\\n\\nWEIGHTS NAME",
+			";\\n",
+			"\\n",
+			"\\n,\\n",
+			"\\n",
+			".\\n\\n",
+			" .\\n",
+			" ",
+			"\\n",
+			" ",
+			"\\n",
+			" ",
+			"\\n",
+			" ",
+			"\\n",
+			" ",
+			"\\n",
+			" ",
+			" \\n",
+			" ",
+			" \\n",
+			" ",
+			" \\n",
+			" ",
+			"",
+			"\\n",
+			"  ",
+			" \\n",
+			" ",
+			"\\n",
+			" ",
+			"\\n",
+			"",
+			",\\n",
+			",[\\n]",
+			",\\n",
+			"#E8C06D",
+			",\\n",
+			";\\n",
+			",\\n",
+			"bem_undip-",
+			" bem_undip",
+			"bem_undip_",
+			"'bem_undip'",
+			"bem_undip-",
+			" Bem_undip",
+			"bem_undip_",
+			"bem_undip",
+			"}",
+			"<?php",
+			">",
+			">\\n<",
+			",\\n",
+			"[,][\\n]",
+			",[\\n]",
+			"\\n,",
+			"<?php echo lib_url().'/res/'; ?>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 439.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/controllers.js",
+					"settings":
+					{
+						"buffer_size": 3810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1912,
+								1918
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 3115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1479,
+								1479
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"appjs",
+				"client/js/app.js"
+			],
+			[
+				"controlle",
+				"client/js/controllers.js"
+			],
+			[
+				"index.html",
+				"client/index.html"
+			],
+			[
+				"account",
+				"angularfire-seed/app/account/account.js"
+			],
+			[
+				"account.js",
+				"angularfire-seed/app/account/account.js"
+			],
+			[
+				"partialevents",
+				"client/partials/partial-events.html"
+			],
+			[
+				"app.js",
+				"client/js/app.js"
+			],
+			[
+				"controller",
+				"client/js/controllers.js"
+			],
+			[
+				"runnertatrainer",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"simpletagger",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"crf",
+				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
+			],
+			[
+				"crf.java",
+				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
+			],
+			[
+				"laporant",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"viterbiwriter",
+				"mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java"
+			],
+			[
+				"crftrainerbythreadedlabell",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
+			],
+			[
+				"crftrainerbythreadlabel",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
+			],
+			[
+				"laporan",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"runnertatra",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"mydbitera",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+			],
+			[
+				"tokenaccura",
+				"mallet-2.0.7/src/cc/mallet/fst/TokenAccuracyEvaluator.java"
+			],
+			[
+				"runnertatrain",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"lapora",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"runnertatrai",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"laporantugas",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"laporantugasak",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"project",
+				"mallet-2.0.7/project.sublime-workspace"
+			],
+			[
+				"runnerta",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"repairin",
+				"mallet-2.0.7/select repairing query.sql"
+			],
+			[
+				"multisegment",
+				"mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java"
+			],
+			[
+				"mydbiterator",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+			],
+			[
+				"updatelabel",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java"
+			],
+			[
+				"instance",
+				"mallet-2.0.7/src/cc/mallet/types/Instance.java"
+			],
+			[
+				"simpletag",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"laporanta",
+				"mallet-2.0.7/laporantaevaluate"
+			],
+			[
+				"laporantaeva",
+				"mallet-2.0.7/laporantaevaluate"
+			],
+			[
+				"runnertaeval",
+				"mallet-2.0.7/runnerTAEvaluate.bat"
+			],
+			[
+				"lapor",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"laporantu",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"simpleta",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"laporantugasakhir",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"laporantuga",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"instancelist",
+				"mallet-2.0.7/src/cc/mallet/types/InstanceList.java"
+			],
+			[
+				"pipe",
+				"mallet-2.0.7/src/cc/mallet/pipe/Pipe.java"
+			],
+			[
+				"multisegmentation",
+				"mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java"
+			],
+			[
+				"crftrainerbythreadedlabellikelihoo",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
+			],
+			[
+				"transducer",
+				"mallet-2.0.7/src/cc/mallet/fst/Transducer.java"
+			],
+			[
+				"multise",
+				"mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java"
+			],
+			[
+				"printinput",
+				"mallet-2.0.7/src/cc/mallet/pipe/PrintInput.java"
+			],
+			[
+				"multisegmentationevaluator",
+				"mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java"
+			],
+			[
+				"crossvalidationiterator",
+				"mallet-2.0.7/src/cc/mallet/types/CrossValidationIterator.java"
+			],
+			[
+				"runnertaevalu",
+				"mallet-2.0.7/runnerTAEvaluate.bat"
+			],
+			[
+				"myanotate",
+				"MyTokenizer/src/MyAnotatorText.java"
+			],
+			[
+				"mytokenizer",
+				"MyTokenizer/src/MyTokenizer.java"
+			],
+			[
+				"laporantugasa",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"multisegmente",
+				"mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java"
+			],
+			[
+				"regexmatches",
+				"mallet-2.0.7/src/cc/mallet/pipe/tsf/RegexMatches.java"
+			],
+			[
+				"tokenizerpipe",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
+			],
+			[
+				"basicnerfeature",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
+			],
+			[
+				"featurevector",
+				"mallet-2.0.7/src/cc/mallet/types/FeatureVector.java"
+			],
+			[
+				"featuresequence2",
+				"mallet-2.0.7/src/cc/mallet/pipe/FeatureSequence2FeatureVector.java"
+			],
+			[
+				"tokensequence2featuresequence",
+				"mallet-2.0.7/src/cc/mallet/pipe/TokenSequence2FeatureSequence.java"
+			],
+			[
+				"charsequencelexer",
+				"mallet-2.0.7/src/cc/mallet/util/CharSequenceLexer.java"
+			],
+			[
+				"charsequence2token",
+				"mallet-2.0.7/src/cc/mallet/pipe/CharSequence2TokenSequence.java"
+			],
+			[
+				"runnertaevaluat",
+				"mallet-2.0.7/runnerTAEvaluate.bat"
+			],
+			[
+				"runnertate",
+				"mallet-2.0.7/runnerTATest.bat"
+			],
+			[
+				"linegroupiterato",
+				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
+			],
+			[
+				"linegroupte",
+				"mallet-2.0.7/src/cc/mallet/pipe/LineGroupString2TokenSequence.java"
+			],
+			[
+				"printtarget",
+				"mallet-2.0.7/src/cc/mallet/pipe/PrintInputAndTarget.java"
+			],
+			[
+				"featurevectorsequence",
+				"mallet-2.0.7/src/cc/mallet/types/FeatureVectorSequence.java"
+			],
+			[
+				"linegroup",
+				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
+			],
+			[
+				"linegroupiterator",
+				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
+			],
+			[
+				"linegroupiterat",
+				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
+			],
+			[
+				"stringtokenization",
+				"mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java"
+			],
+			[
+				"featurefactory",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java"
+			],
+			[
+				"featurefactor",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java"
+			],
+			[
+				"trainer",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/Trainer.java"
+			],
+			[
+				"crfsequencelear",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
+			],
+			[
+				"basicnerfeaturefactor",
+				"MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java"
+			],
+			[
+				"sequencelearner",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java"
+			],
+			[
+				"runnetatrai",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"filter",
+				"MyTokenizer/src/MyFilter.java"
+			],
+			[
+				"sandbox",
+				"mallet-2.0.7/sandboxTA"
+			],
+			[
+				"eventscon",
+				"kibar/app/Http/Controllers/EventsController.php"
+			],
+			[
+				"routes",
+				"kibar/app/Http/routes.php"
+			],
+			[
+				"create.blade",
+				"kibar/resources/views/events/create.blade.php"
+			],
+			[
+				"config/app",
+				"kibar/config/app.php"
+			],
+			[
+				"createb",
+				"kibar/resources/views/events/create.blade.php"
+			],
+			[
+				"index.blade",
+				"kibar/resources/views/events/index.blade.php"
+			],
+			[
+				"show.blade",
+				"kibar/resources/views/events/show.blade.php"
+			],
+			[
+				"eventcontro",
+				"kibar/app/Http/Controllers/EventsController.php"
+			],
+			[
+				"eventscontrolle",
+				"kibar/app/Http/Controllers/EventsController.php"
+			],
+			[
+				"routes.php",
+				"kibar/app/Http/routes.php"
+			],
+			[
+				"event",
+				"kibar/app/Event.php"
+			],
+			[
+				"create_table",
+				"kibar/database/migrations/2015_04_24_074020_create_table_events.php"
+			],
+			[
+				"nerd",
+				"kibar/app/Models/nerd.php"
+			],
+			[
+				"user",
+				"kibar/app/User.php"
+			],
+			[
+				"nerdcontroller",
+				"kibar/app/Http/Controllers/NerdController.php"
+			],
+			[
+				"nerdcontro",
+				"kibar/app/Http/Controllers/NerdController.php"
+			],
+			[
+				"nerdcont",
+				"kibar/app/Http/Controllers/NerdController.php"
+			],
+			[
+				"namedentity",
+				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java"
+			],
+			[
+				"crftrainerbylabe",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
+			],
+			[
+				"runerta",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"runner",
+				"mallet-2.0.7/runnerTATest.bat"
+			],
+			[
+				"crfoptimizablebybatch",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFOptimizableByBatchLabelLikelihood.java"
+			],
+			[
+				"crftrainerbylabelli",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
+			],
+			[
+				"crftrainerby",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByLabelLikelihood.java"
+			],
+			[
+				"runnertrainer",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"matrixops",
+				"mallet-2.0.7/src/cc/mallet/types/MatrixOps.java"
+			],
+			[
+				"runnereva",
+				"mallet-2.0.7/runnerTAEvaluate.bat"
+			],
+			[
+				"sparsevector",
+				"mallet-2.0.7/src/cc/mallet/types/SparseVector.java"
+			],
+			[
+				"featuresequence",
+				"mallet-2.0.7/src/cc/mallet/types/FeatureSequence.java"
+			],
+			[
+				"sequencelearneroption",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearnerOptions.java"
+			],
+			[
+				"crfoptions",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearnerOptions.java"
+			],
+			[
+				"crfse",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
+			],
+			[
+				"sequence",
+				"mallet-2.0.7/src/cc/mallet/types/Sequence.java"
+			],
+			[
+				"maxlatticedefault",
+				"mallet-2.0.7/src/cc/mallet/fst/MaxLatticeDefault.java"
+			],
+			[
+				"maxlatticefactory",
+				"mallet-2.0.7/src/cc/mallet/fst/MaxLatticeFactory.java"
+			],
+			[
+				"crfsquencelearner",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
+			],
+			[
+				"named",
+				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java"
+			],
+			[
+				"tester",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/Tester.java"
+			],
+			[
+				"crfwriter",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFWriter.java"
+			],
+			[
+				"tokenizerpip",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
+			],
+			[
+				"basicner",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
+			],
+			[
+				"labelsequence",
+				"mallet-2.0.7/src/cc/mallet/types/LabelSequence.java"
+			],
+			[
+				"target",
+				"mallet-2.0.7/src/cc/mallet/pipe/Target2LabelSequence.java"
+			],
+			[
+				"labelalphab",
+				"mallet-2.0.7/src/cc/mallet/types/LabelAlphabet.java"
+			],
+			[
+				"label",
+				"mallet-2.0.7/src/cc/mallet/types/Label.java"
+			],
+			[
+				"targe2label",
+				"mallet-2.0.7/src/cc/mallet/pipe/Target2Label.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true
+}

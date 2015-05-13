@@ -109,18 +109,23 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 
 	$scope.login = function(email, pass) {
 		$scope.err = null;
-		Auth.$authWithPassword({ email: email, password: pass }, {rememberMe: false})
+		MyAuth.$authWithPassword({ email: email, password: pass }, {rememberMe: false})
 		.then(function(/* user */) {
-			$location.path('/details');
+			$location.path('/events');
 		}, function(err) {
 			$scope.err = errMessage(err);
 		});
 	};
 
-}]).controller('eventsController',['$scope','MyEvents',function($scope,MyEvents){
+	$scope.logout = function(){
+		MyAuth.$unauth();
+	};
+
+}]).controller('eventsController',['$scope','MyEvents','currentAuth','MyAuth','$location',function($scope,MyEvents,currentAuth,MyAuth,$location){
 	$scope.helo = 'world';
 	$scope.events = MyEvents;
 	$scope.event={'name':'name1','location':'location1','date':'tes'}
+	$scope.cauth= currentAuth;
 
 	$scope.addEvent = function(event){
 		MyEvents.$add(event);
@@ -128,6 +133,12 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 
 	$scope.removeEvent = function(event){
 		MyEvents.$remove(event);
+	}
+
+	$scope.logout = function(){
+		//alert("Test");
+		MyAuth.$unauth();
+		$location.path('/login');
 	}
 
 }]).controller('eventDetailController',['$scope','$stateParams',function($scope,$stateParams){
