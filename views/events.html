@@ -1,1 +1,18 @@
 <h5>ini events pages {{hai}}</h5>
+
+<div class="jumbotron">
+	<h4 class="text-center">Explore Channel : #xx</h4>
+</div>
+<div class="container">
+	<div class=row ng-repeat="evnts in events | groupBy:3">
+		<div class="col-xs-4 letter-box" ng-repeat="e in evnts" >
+
+			<div class="panel panel-default">
+				<div class="panel-body">
+					{{e.name}}
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>

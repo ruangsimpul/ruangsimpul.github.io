@@ -95,8 +95,10 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 
 
 }])
-.controller('eventsController', ['$scope',function($scope){
+.controller('eventsController', ['$scope','MyEvents',function($scope,MyEvents){
 	$scope.hai = "events controller";
+	$scope.events = MyEvents;
+	
 }])
 .controller('dashboardController', ['$scope','$location', function($scope,$location){
 	$scope.salam = "ini dari dashboard";
