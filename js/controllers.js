@@ -154,13 +154,14 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 	
 	
 })*/
-.controller('ModalEventController', ['$scope','MyEvents','$modalInstance','$filter','Upload','$rootScope','MyPhotos', function($scope,MyEvents,$modalInstance,$filter,Upload,$rootScope,MyPhotos){
+.controller('ModalEventController', ['$scope','MyEvents','$modalInstance','$filter','Upload','$rootScope','TheEvent', function($scope,MyEvents,$modalInstance,$filter,Upload,$rootScope,TheEvent){
 	// konfigurasi untuk date picker
 	$scope.minDate = new Date();
 	$scope.dateOptions = {
 		formatYear: 'yy',
 		startingDay: 1
 	};
+
 
 
 	// open popup picker
@@ -216,7 +217,11 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 				if(!$scope.$$phase) {
 					$scope.$apply();
 				}
-				
+				// ini harusnya the event adalah constructor yang dipassing sama event id dan harusnya disave
+				alert("ini harusnya the event adalah constructor yang dipassing sama event id dan harusnya disave")
+				$scope.event.posterpic = file.result.url;
+				TheEvent.$save();
+
 			}).error(function(err){
 				console.log(err);
 			});
@@ -224,11 +229,10 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 	};
 
 }])
-.controller('eventManageController', ['$scope','$stateParams','MyPhotos','MyEvents','Upload','$rootScope', function($scope,$stateParams,MyPhotos,MyEvents,Upload,$rootScope){
+.controller('eventManageController', ['$scope','$stateParams','TheEvent','Upload','$rootScope', function($scope,$stateParams,TheEvent,Upload,$rootScope){
 	
 	var eventId  = $stateParams.eventId;
-	var photoobj = MyPhotos(eventId);
-	$scope.event = MyEvents.$getRecord(eventId);
+	$scope.event = TheEvent(eventId);
 
 	$scope.$watch('files',function(){
 		$scope.doupload($scope.files);
@@ -265,7 +269,12 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 				}
 
 				// Tambahan, store photo object item baru 
-				photoobj.$add(file.result.url);
+				$scope.event.posterpic = file.result.url;
+				$scope.event.$save().then(function(ref){
+					console.log(ref);
+				},function(error){
+					console.log("ERROR IS : "+errpr);
+				});
 				
 			}).error(function(err){
 				console.log(err);

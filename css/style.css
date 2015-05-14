@@ -39,12 +39,70 @@
 }
 
 .image-circle{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    border: 4px solid #FFF;
-    margin: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 4px solid #FFF;
+  margin: 10px;
 }
+
+.panel-image img.panel-image-preview {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+  border-radius: 0px;
+}
+
+.panel-image ~ .panel-body, .panel-image.hide-panel-body ~ .panel-body {
+  overflow: hidden;
+}
+.panel-image ~ .panel-footer a {
+  padding: 0px 10px;
+  font-size: 1.3em;
+  color: rgb(100, 100, 100);
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#fact{
+  background-color: black;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  /* IE 5-7 */
+  filter: alpha(opacity=880);
+  /* Netscape */
+  -moz-opacity: 0.8;
+  /* Safari 1.x */
+  -khtml-opacity: 0.8;
+  /* Good browsers */
+  opacity: 0.8;
+}
+
 
 
 .tabset, .tab-content, .tab-pane, .tabbable {

@@ -167,10 +167,10 @@ app.factory('offCanvas', function(cnOffCanvas) {
     return $resource(url, {}, {
       photos: {method:'GET', isArray:false}
     });
-}]).factory('MyPhotos', ['$firebaseArray', function($firebaseArray){
-    return function MyPhotos(idEvent){
+}]).factory('TheEvent', ['$firebaseObject', function($firebaseObject){
+    return function TheEvent(idEvent){
         var ref = new Firebase('https://kibar.firebaseio.com');
-        return $firebaseArray(ref.child('events').child(idEvent).child('photos'));
+        return $firebaseObject(ref.child('events').child(idEvent));
     };
 }]);
 

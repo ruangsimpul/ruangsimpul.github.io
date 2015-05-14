@@ -4,7 +4,6 @@
 
 			<!-- Form Name -->
 			<legend>New Events</legend>
-			Event : {{event}}
 			<!-- Text input-->
 			<div class="form-group">
 				<label class="col-md-2 control-label" for="textinput">Nama Event</label>  
@@ -45,7 +44,11 @@
 				</div>
 			</div>
 
-			<h2>Status</h2>
+			<H4>Upload progress</H4>
+			<div class="col-md-12">
+				<progressbar value="file.progress" type="success"><span style="color:black; white-space:nowrap;">{{file.progress}}</span></progressbar>	
+			</div>
+			<!-- <h2>Status</h2>
 			Preview : <img src="{{file.result.url}}">
 			<div class="file" ng-repeat="file in files">
 				<h3>{{file.name}}</h3>
@@ -65,7 +68,7 @@
 						</tr>
 					</table>
 				</div>
-			</div>
+			</div> -->
 			
 			
 			<!-- Button -->
