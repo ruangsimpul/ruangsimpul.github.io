@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "/E/OPENSHIFT/ruangsimpul/client"
+		},
+		{
+			"path": "/E/OPENSHIFT/cloudinary_angular"
 		}
 	]
 }

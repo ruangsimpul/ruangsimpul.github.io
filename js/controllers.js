@@ -154,7 +154,7 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 	
 	
 })*/
-.controller('ModalEventController', ['$scope','MyEvents','$modalInstance','$filter', function($scope,MyEvents,$modalInstance,$filter){
+.controller('ModalEventController', ['$scope','MyEvents','$modalInstance','$filter','Upload','$rootScope', function($scope,MyEvents,$modalInstance,$filter,Upload,$rootScope){
 	// konfigurasi untuk date picker
 	$scope.minDate = new Date();
 	$scope.dateOptions = {
@@ -182,6 +182,47 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 	$scope.closeModal = function(){
 		$modalInstance.close();	
 	}
+
+	$scope.$watch('files',function(){
+		$scope.doupload($scope.files);
+	});
+
+	$scope.doupload = function(files){
+		if (!$scope.files) return;
+		$scope.files.forEach(function(file){
+			$scope.upload = Upload.upload({
+				url: "https://api.cloudinary.com/v1_1/" +"akunp2akunp2" + "/upload",
+				method : 'POST',
+				fields:{
+					upload_preset: 'nzgnorda',
+					tags: 'myphotoalbum',
+					context:'photo=' + $scope.title
+				},
+				file: file
+			}).progress(function (e) {
+				console.log(Math.round((e.loaded * 100.0) / e.total));
+				file.progress = Math.round((e.loaded * 100.0) / e.total);
+				file.status = "Uploading... " + file.progress + "%";
+				if(!$scope.$$phase) {
+					$scope.$apply();
+				}
+			}).success(function (data, status, headers, config) {
+				console.log("fired");
+				$rootScope.photos = $rootScope.photos || [];
+				data.context = {custom: {photo: $scope.title}};
+				file.result = data;
+				$scope.retvaldariserver=data;
+				$rootScope.photos.push(data);
+				if(!$scope.$$phase) {
+					$scope.$apply();
+				}
+				
+			}).error(function(err){
+				console.log(err);
+			});
+		});
+	};
+
 }])
 .controller('eventManageController', ['$scope','$stateParams', function($scope,$stateParams){
 	$scope.hello = $stateParams;

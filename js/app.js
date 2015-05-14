@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['ui.router', 'cn.offCanvas','angular.filter','satellizer','ui.bootstrap','firebase','ncy-angular-breadcrumb']);
+var app = angular.module('myApp', ['ui.router', 'cn.offCanvas','angular.filter','satellizer','ui.bootstrap','firebase','ncy-angular-breadcrumb','ngFileUpload','cloudinary','ngResource']);
 
 
 
@@ -160,6 +160,13 @@ app.factory('offCanvas', function(cnOffCanvas) {
 }]).factory('MyUsers', ['$firebaseArray', function($firebaseArray){
     var ref = new Firebase('https://kibar.firebaseio.com');
     return $firebaseArray(ref.child('users'));
+}]).factory('MyAlbums', ['$rootScope','$resource', function($rootScope,$resource){
+    var url = $.cloudinary.url('myphotoalbum', {format: 'json', type: 'list'});
+    //cache bust
+    url = url + "?" + Math.ceil(new Date().getTime()/1000);
+    return $resource(url, {}, {
+      photos: {method:'GET', isArray:false}
+    });
 }]);
 
 app.directive('holderFix', function () {
