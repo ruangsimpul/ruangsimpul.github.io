@@ -1,0 +1,51 @@
+<div class="modal-body">
+	<form class="form-horizontal">
+		<fieldset>
+
+			<!-- Form Name -->
+			<legend>New Events</legend>
+			Event : {{event}}
+			<!-- Text input-->
+			<div class="form-group">
+				<label class="col-md-2 control-label" for="textinput">Nama Event</label>  
+				<div class="col-md-10">
+					<input id="textinput" name="textinput" placeholder="placeholder" class="form-control input-md" type="text" ng-model="event.name">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-2 control-label" for="textinput">Waktu Event</label>  
+				<div class="col-md-4">
+					<p class="input-group">
+						<span class="input-group-btn">
+							<button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+						</span>
+						<input type="text" ui-date class="form-control" datepicker-popup="dd-MMMM-yyyy" ng-model="event.date" is-open="opened" min-date="minDate" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+					</p>
+				</div>
+				<label class="col-md-2 control-label" for="textinput">Lokasi Event</label>  
+				<div class="col-md-4">
+					<input id="textinput" name="textinput" placeholder="placeholder" class="form-control input-md" type="text" ng-model="event.location">
+				</div>
+			</div>
+			<!-- Textarea -->
+			<div class="form-group">
+				<label class="col-md-2 control-label" for="textarea">Deskripsi</label>
+				<div class="col-md-10">                     
+					<textarea class="form-control" id="textarea" name="textarea" ng-model="event.description">Deskripsi Event</textarea>
+				</div>
+			</div>
+
+			<!-- Button -->
+			<div class="form-group">
+				<div class="col-md-offset-9">
+					<div class="btn-group">
+						<button id="singlebutton" name="singlebutton" ng-click="addEvent()" class="btn btn-primary">Add New Events</button>
+						<button id="singlebutton" name="singlebutton" ng-click="closeModal()" class="btn btn-danger">Close</button>
+					</div>					
+				</div>
+			</div>
+
+		</fieldset>
+	</form>
+</div>

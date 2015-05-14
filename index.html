@@ -23,6 +23,7 @@
 	<script src="bower_components/angular-filter/dist/angular-filter.min.js"></script>
 	<script src="bower_components/satellizer/satellizer.min.js"></script>
 	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="bower_components/angular-breadcrumb/dist/angular-breadcrumb.min.js"></script>
 	<script src="bower_components/angularfire/dist/angularfire.min.js"></script>
 	<script src="bower_components/holderjs/holder.min.js"></script>
 	<script src="bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
@@ -50,30 +51,7 @@
 
 
 <!-- Start example -->
-<div class="navmenu navmenu-default navmenu-fixed-left offcanvas" ng-controller="OffCanvasCtrl">
-	<a class="navmenu-brand" href="#">Ruang Simpul</a>
-	<ul class="nav navmenu-nav">
-		<li class="active"><a href="#">Home</a></li>
-		<li><a href="#" ng-click="tesfungsi()">About</a></li>
-		<li><a ui-sref="events">Explore</a></li>
-		<li>
-			<div class="navbar-btn text-center">
-				<a class="btn btn-primary" ng-click="open()">Login</a>
-			</div>
-		</li>
-	</ul>
-</div>
-
-
-<div class="navbar navbar-default navbar-fixed-top">
-	<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	</button>
-</div>
-<!-- End CSS tricks -->
-
+<div ng-include="'views/sidemenu.html'"></div>
 
 <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
 <div ui-view></div>

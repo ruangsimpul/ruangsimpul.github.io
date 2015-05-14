@@ -1,20 +1,26 @@
-var app = angular.module('myApp', ['ui.router', 'cn.offCanvas','angular.filter','satellizer','ui.bootstrap','firebase']);
+var app = angular.module('myApp', ['ui.router', 'cn.offCanvas','angular.filter','satellizer','ui.bootstrap','firebase','ncy-angular-breadcrumb']);
 
 
 
-app.run(['$rootScope','$state',function($rootScope, $state){
+app.run(['$rootScope','$state','$modal',function($rootScope, $state,$modal){
     $rootScope.$on("$stateChangeError", function(event, toState, toParams, fromState, fromParams, error) {
         // We can catch the error thrown when the $requireAuth promise is rejected
         // and redirect the user back to the home page
         if (error === "AUTH_REQUIRED") {
             $state.go("login");
+            $modal.open({
+                animation: true,
+                templateUrl: 'views/login.modal.html',
+                controller: 'ModalLoginController',
+                size:'sm'
+            });
         }
     });
 }]);
 
 app.config(['$stateProvider', '$urlRouterProvider', '$authProvider',function($stateProvider, $urlRouterProvider, $authProvider) {
 	
-	$urlRouterProvider.otherwise('/home');
+	//$urlRouterProvider.otherwise('/home');
 
 	$stateProvider
         // HOME STATES AND NESTED VIEWS ========================================
@@ -22,48 +28,115 @@ app.config(['$stateProvider', '$urlRouterProvider', '$authProvider',function($st
         	url: '/home',
         	controller: 'homeController',
         	controllerAs: 'hctrl',
-        	templateUrl: 'partials/partial-home.html'
+        	templateUrl: 'views/home.html'
 
-        })        
+        })
+        // Tambahin state details dan channel juga
+        .state('events',{
+            url:'/events',
+            controller:'eventsController',
+            controllerAs: 'ectrl',
+            templateUrl:'views/events.html'
+        })
+        // Terdiri dasi dashboard/settings/ dashboard/notification kalau dia apply
+        .state('dashboard',{
+            url:'/dashboard',
+            controller: 'dashboardController',
+            controllerAs: 'dctrl',
+            templateUrl: 'views/dashboard.html',
+            resolve:{
+                'currentAuth':['MyAuth',function(MyAuth){
+                    return MyAuth.$requireAuth();
+                }]
+            },
+            ncyBreadcrumb: {
+                label: 'Dashboard'
+            }
+        })
+        .state('dashboard.organization',{
+            url:'/organization',
+            controller: 'dashboardOrganizationController',
+            controllerAs: 'doctrl',
+            templateUrl: 'views/dashboard.organization.html',
+            resolve:{
+                'currentAuth':['MyAuth',function(MyAuth){
+                    return MyAuth.$requireAuth();
+                }]
+            },
+            ncyBreadcrumb: {
+                label: 'Organization Settings'
+            }
+        })
+        .state('dashboard.events',{
+            url:'/events',
+            controller: 'dashboardEventsController',
+            controllerAs: 'dectrl',
+            templateUrl: 'views/dashboard.events.html',
+            resolve:{
+                'currentAuth':['MyAuth',function(MyAuth){
+                    return MyAuth.$requireAuth();
+                }]
+            },
+            ncyBreadcrumb: {
+                label: 'Events'
+            }
+        })
+        .state('dashboard.detail',{
+            url:'/events/detail/:eventId',
+            controller:'eventManageController',
+            controllerAs:'emdctrl',
+            templateUrl:'views/dashboard.events.manage.html' // lain kali mending yang detailscontroller diilangin aja
+        })
+        .state('login',{
+            url:'/login',
+            controller: 'loginController',
+            controllerAs: 'lctrl',
+            templateUrl: 'views/login.html', 
+            resolve:{
+                'currentAuth':['MyAuth',function(MyAuth){
+                    return MyAuth.$waitForAuth();
+                }]
+            }
+        })
+        .state('about',{
+            url:'/about',
+            templateUrl: 'views/about.html', 
+        });
         // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+        /*
         .state('details', {
             url: '/details',
             controller: 'detailController',
         	controllerAs: 'dtlctrl',
-        	templateUrl: 'partials/partial-details.html',
+        	templateUrl: 'views/partial-details.html',
         	resolve:{
         		'currentAuth':['MyAuth',function(MyAuth){
         			return MyAuth.$requireAuth();
         		}]
         	}
-        })
-        .state('login',{
-        	url:'/login',
-        	controller: 'ModalLoginController',
-        	templateUrl: 'partials/partial-modal-login.html',
-        	resolve:{
-        		'currentAuth':['MyAuth',function(MyAuth){
-        			return MyAuth.$waitForAuth();
-        		}]
-        	}
-        })
+        });
+        
+        
+        // Jangn lupa hilangin titik koma diatas kalau mau restore
         .state('events',{
             url:'/events',
             controller: 'eventsController',
             controllerAs: 'evntCtrl',
-            templateUrl: 'partials/partial-events.html',
+            templateUrl: 'views/partial-events.html',
             resolve:{
                 'currentAuth':['MyAuth',function(MyAuth){
                     return MyAuth.$requireAuth();
                 }]
             }
-        }).state('event',{
+        })
+        
+        .state('event',{
             url:'/event?eventId',
             controller:'eventDetailController',
             controllerAs:'evntdtlCtrl',
-            templateUrl:'partials/partial-details.html' // lain kali mending yang detailscontroller diilangin aja
+            templateUrl:'views/partial-details.html' // lain kali mending yang detailscontroller diilangin aja
         });
-
+        */
     $authProvider.facebook({
     	clientId: '1380551305608706'
     });
@@ -76,7 +149,7 @@ app.factory('offCanvas', function(cnOffCanvas) {
 	return cnOffCanvas({
 		controller: 'navCtrl',
 		controllerAs: 'nav',
-		templateUrl: 'partials/partial-offcanvas.html'
+		templateUrl: 'views/partial-offcanvas.html'
 	})
 }).factory('MyAuth',['$firebaseAuth',function($firebaseAuth){
     var ref = new Firebase('https://kibar.firebaseio.com');
@@ -84,6 +157,9 @@ app.factory('offCanvas', function(cnOffCanvas) {
 }]).factory('MyEvents',['$firebaseArray',function($firebaseArray){
     var ref = new Firebase('https://kibar.firebaseio.com');
     return $firebaseArray(ref.child('events'));
+}]).factory('MyUsers', ['$firebaseArray', function($firebaseArray){
+    var ref = new Firebase('https://kibar.firebaseio.com');
+    return $firebaseArray(ref.child('users'));
 }]);
 
 app.directive('holderFix', function () {

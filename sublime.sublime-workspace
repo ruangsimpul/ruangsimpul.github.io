@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"My",
+				"MyUsers"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"authob",
+				"authobject"
+			],
+			[
+				"$modal",
+				"$modalInstance"
+			],
+			[
+				"contro",
+				"controllerAs"
+			],
+			[
 				"for",
 				"for	for"
 			],
@@ -490,40 +514,16 @@
 			[
 				"fun",
 				"function"
-			],
-			[
-				"bs3danger",
-				"bs3-alert:danger	bs3-alert-danger"
-			],
-			[
-				"bsglyp",
-				"bs3-icon:glyphicon	bs3-icon-glyphicon"
-			],
-			[
-				"library",
-				"load_library	CI - Load Library"
-			],
-			[
-				"view",
-				"viewdata"
-			],
-			[
-				"bsnavbar",
-				"bs3-navbar:link	bs3-navbar-link"
-			],
-			[
-				"bs3-",
-				"bs3-input:month	bs3-input-month"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "views/dashboard.html",
 			"settings":
 			{
-				"buffer_size": 2995,
+				"buffer_size": 1094,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +531,34 @@
 			"file": "js/controllers.js",
 			"settings":
 			{
-				"buffer_size": 3810,
+				"buffer_size": 5273,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<h4>INI HALAMAN settings unuk events {{events}}</h4>\n\n<table class=\"table\">\n	<thead>\n		<td></td>\n	</thead>\n</table>",
+			"file": "views/dashboard.events.html",
+			"file_size": 117,
+			"file_write_time": 130760796320732937,
+			"settings":
+			{
+				"buffer_size": 115,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/sidemenu.html",
+			"settings":
+			{
+				"buffer_size": 2173,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2362,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +566,7 @@
 			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 3115,
+				"buffer_size": 5510,
 				"line_ending": "Windows"
 			}
 		}
@@ -547,9 +574,33 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"installpac",
+				"Package Control: Install Package"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"sshtm",
+				"Set Syntax: HTML"
+			],
 			[
 				"ssphp",
 				"Set Syntax: PHP"
@@ -569,10 +620,6 @@
 			[
 				"package",
 				"Package Control: Disable Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"bookmarks",
@@ -615,10 +662,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"ssht",
-				"Set Syntax: HTML"
-			],
-			[
 				"ssc+",
 				"Set Syntax: C++"
 			],
@@ -653,10 +696,6 @@
 			[
 				"sphp",
 				"Set Syntax: PHP"
-			],
-			[
-				"sshtml",
-				"Set Syntax: HTML"
 			],
 			[
 				"ssc++",
@@ -796,14 +835,28 @@
 	},
 	"file_history":
 	[
+		"/E/OPENSHIFT/ruangsimpul/client/css/style.css",
+		"/E/OPENSHIFT/angularfire-seed/app/login/login.js",
+		"/E/OPENSHIFT/ruangsimpul/client/views/login.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/login.modal.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/sidemenu.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/home.html",
+		"/E/OPENSHIFT/ruangsimpul/client/index.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.html",
+		"/E/OPENSHIFT/ruangsimpul/client/js/app.js",
+		"/E/OPENSHIFT/ruangsimpul/client/views/events.html",
+		"/E/OPENSHIFT/ruangsimpul/client/js/controllers.js",
+		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.events.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.organization.html",
+		"/E/OPENSHIFT/ruangsimpul/client/server.bat",
+		"/E/OPENSHIFT/ruangsimpul/client/views/partial-modal-login.html",
+		"/E/OPENSHIFT/angularfire-seed/app/login/login.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/partial-home.html",
 		"/E/OPENSHIFT/angularfire-seed/app/account/account.js",
 		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-events.html",
 		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-modal-login.html",
 		"/E/OPENSHIFT/angularfire-seed/app/components/firebase.utils/firebase.utils.js",
-		"/E/OPENSHIFT/ruangsimpul/client/js/app.js",
-		"/E/OPENSHIFT/ruangsimpul/client/js/controllers.js",
 		"/E/OPENSHIFT/angularfire-seed/app/components/auth/auth.js",
-		"/E/OPENSHIFT/ruangsimpul/client/index.html",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java",
@@ -904,26 +957,12 @@
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/grammar",
 		"/E/eclipse3/mycron/src/cronjava/MyCron.java",
 		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-offcanvas.html",
-		"/E/OPENSHIFT/ruangsimpul/client/css/style.css",
 		"/E/eclipse3/MyTokenizer/src/MyFilter.java",
 		"/E/TA/mallet-2.0.7/sandboxTA",
 		"/E/TA/mallet-2.0.7/raw_tweet_final.sql",
 		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-home.html",
 		"/E/OPENSHIFT/ruangsimpul/client/css/tumblr-card.css",
-		"/E/eclipse3/MyTokenizer/database lokal 26-04-15.sql",
-		"/E/eclipse3/MyTokenizer/raw_tweet_final.sql",
-		"/E/OPENSHIFT/satubahasa.github.io/_layouts/default.html",
-		"/E/OPENSHIFT/satubahasa.github.io/index.html",
-		"/C/xampp/htdocs/kibar/resources/views/events/create.blade.php",
-		"/C/xampp/htdocs/kibar/resources/views/events/show.blade.php",
-		"/C/xampp/htdocs/kibar/config/app.php",
-		"/E/OPENSHIFT/kibar-frontend/index.html",
-		"/E/OPENSHIFT/front-end-kibar/bower.json",
-		"/E/OPENSHIFT/front-end-kibar/.bowerrc",
-		"/C/Program Files/Weka-3-6/runner weka.bat",
-		"/E/S2/runner weka.bat",
-		"/E/S2/korpusnlp.csv",
-		"/C/xampp/htdocs/kibar/app/Http/Controllers/EventsController.php"
+		"/E/eclipse3/MyTokenizer/database lokal 26-04-15.sql"
 	],
 	"find":
 	{
@@ -990,6 +1029,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"td",
+			"tr>td",
+			"td",
+			"Subscriber",
+			"subscriber",
+			"MyProfile",
+			"\"\"",
+			"modallogincontroller",
+			"h1",
+			"175px",
+			"alert-fixed-top",
+			"h2",
+			"modal",
+			"$modal",
+			"col-md-10 col-md-offset-1",
+			"form",
+			"MyAuth",
+			"$modal",
+			"login",
+			"controller",
+			"115",
+			"modal",
+			"modallogincontroller",
+			"modalinstance",
+			"$modal",
+			"partials",
 			"offcan",
 			"controller",
 			"login",
@@ -1091,33 +1156,7 @@
 			"logger.",
 			" logger",
 			"logger",
-			"System.out.println",
-			"System.out.println(",
-			"i-name",
-			"i-date",
-			" O",
-			"i-info",
-			"info",
-			"i-place",
-			"O",
-			"System.out.print",
-			"system",
-			"testOption",
-			"testoption",
-			"= train",
-			"\\w-\\w",
-			"7march",
-			"crf",
-			"maxLatticeFactory",
-			"transduce",
-			"MaxLatticeFactory",
-			"maxlatticefactory",
-			"maxLatticeFactory",
-			"CRF crf",
-			"includeinputoption",
-			"include-input",
-			"classify",
-			"tostring"
+			"System.out.println"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1206,18 +1245,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "views/dashboard.html",
 					"settings":
 					{
-						"buffer_size": 2995,
+						"buffer_size": 1094,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								547,
+								547
 							]
 						],
 						"settings":
@@ -1226,7 +1265,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 439.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1236,15 +1275,15 @@
 					"file": "js/controllers.js",
 					"settings":
 					{
-						"buffer_size": 3810,
+						"buffer_size": 5273,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1912,
-								1918
+								2710,
+								2710
 							]
 						],
 						"settings":
@@ -1253,25 +1292,105 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 1308.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "js/app.js",
+					"file": "views/dashboard.events.html",
 					"settings":
 					{
-						"buffer_size": 3115,
+						"buffer_size": 115,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1479,
-								1479
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/sidemenu.html",
+					"settings":
+					{
+						"buffer_size": 2173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1400,
+								1400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 5510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4982,
+								4990
 							]
 						],
 						"settings":
@@ -1281,7 +1400,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1560.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1339,16 +1458,88 @@
 		"selected_items":
 		[
 			[
+				"dashboard.events",
+				"views/dashboard.events.html"
+			],
+			[
+				"app.js",
+				"js/app.js"
+			],
+			[
+				"index.html",
+				"index.html"
+			],
+			[
+				"sideme",
+				"views/sidemenu.html"
+			],
+			[
+				"controll",
+				"js/controllers.js"
+			],
+			[
+				"dashboard",
+				"views/dashboard.html"
+			],
+			[
+				"dashboard.",
+				"views/dashboard.organization.html"
+			],
+			[
+				"sidem",
+				"views/sidemenu.html"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"login.html",
+				"views/login.html"
+			],
+			[
+				"partial-login",
+				"views/partial-modal-login.html"
+			],
+			[
+				"style.cs",
+				"css/style.css"
+			],
+			[
+				"style.css",
+				"css/style.css"
+			],
+			[
+				"home",
+				"views/home.html"
+			],
+			[
+				"dashboar",
+				"client/views/dashboard.html"
+			],
+			[
+				"events",
+				"client/views/events.html"
+			],
+			[
+				"control",
+				"client/js/controllers.js"
+			],
+			[
+				"cont",
+				"client/js/controllers.js"
+			],
+			[
+				"controller",
+				"client/js/controllers.js"
+			],
+			[
 				"appjs",
 				"client/js/app.js"
 			],
 			[
 				"controlle",
 				"client/js/controllers.js"
-			],
-			[
-				"index.html",
-				"client/index.html"
 			],
 			[
 				"account",
@@ -1361,14 +1552,6 @@
 			[
 				"partialevents",
 				"client/partials/partial-events.html"
-			],
-			[
-				"app.js",
-				"client/js/app.js"
-			],
-			[
-				"controller",
-				"client/js/controllers.js"
 			],
 			[
 				"runnertatrainer",
@@ -1785,70 +1968,6 @@
 			[
 				"sequencelearneroption",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearnerOptions.java"
-			],
-			[
-				"crfoptions",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearnerOptions.java"
-			],
-			[
-				"crfse",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
-			],
-			[
-				"sequence",
-				"mallet-2.0.7/src/cc/mallet/types/Sequence.java"
-			],
-			[
-				"maxlatticedefault",
-				"mallet-2.0.7/src/cc/mallet/fst/MaxLatticeDefault.java"
-			],
-			[
-				"maxlatticefactory",
-				"mallet-2.0.7/src/cc/mallet/fst/MaxLatticeFactory.java"
-			],
-			[
-				"crfsquencelearner",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
-			],
-			[
-				"named",
-				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java"
-			],
-			[
-				"tester",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/Tester.java"
-			],
-			[
-				"crfwriter",
-				"mallet-2.0.7/src/cc/mallet/fst/CRFWriter.java"
-			],
-			[
-				"tokenizerpip",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
-			],
-			[
-				"basicner",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
-			],
-			[
-				"labelsequence",
-				"mallet-2.0.7/src/cc/mallet/types/LabelSequence.java"
-			],
-			[
-				"target",
-				"mallet-2.0.7/src/cc/mallet/pipe/Target2LabelSequence.java"
-			],
-			[
-				"labelalphab",
-				"mallet-2.0.7/src/cc/mallet/types/LabelAlphabet.java"
-			],
-			[
-				"label",
-				"mallet-2.0.7/src/cc/mallet/types/Label.java"
-			],
-			[
-				"targe2label",
-				"mallet-2.0.7/src/cc/mallet/pipe/Target2Label.java"
 			]
 		],
 		"width": 0.0
@@ -1865,6 +1984,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 161.0,
+	"side_bar_width": 218.0,
 	"status_bar_visible": true
 }

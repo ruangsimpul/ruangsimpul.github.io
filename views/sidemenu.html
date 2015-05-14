@@ -1,0 +1,68 @@
+<div ng-controller="sideController">
+	<div class="navmenu navmenu-default navmenu-fixed-left offcanvas" >
+		<a class="navmenu-brand" ui-sref="home">Ruang Simpul</a>
+
+		<div ng-show="authData" class="jumbotron">
+			<div class="text-center">
+				<div class="outter"><img src="http://wixmultimedia.com/tfd1/wp-content/uploads/2014/03/gravatar_default_550.jpg" class="image-circle"/></div>   
+				<h5>Hi {{authData.password.email}}</h5>
+			</div>
+		</div>
+		<ul class="nav navmenu-nav">
+			
+			<li ng-class="{active:isActive('/home')}"><a ui-sref="home">Home</a></li>
+			<li ng-class="{active:isActive('/about')}"><a ui-sref="about" >About</a></li>
+			<li ng-class="{active:isActive('/events')}"><a ui-sref="events">Explore</a></li>
+			<li ng-show="authData" ng-class="{active:isActive('/dashboard')}"><a ui-sref="dashboard">Dashboard</a></li>
+			<li ng-show="authData"><a ng-click="logout()">Logout</a></li>
+			<li ng-hide="authData" ><a ng-click="openLoginModal()">Login / Register</b></a></li>
+			<!-- <li ng-hide="authData">
+				<div class="navbar-btn text-center">
+					<a class="btn btn-primary" ui-sref="login">Login</a>
+				</div>
+			</li>
+			<li ng-show="authData">
+				<div class="navbar-btn text-center">
+					<a class="btn btn-danger" ng-click="logout()">Logout</a>
+				</div>
+			</li> -->
+			
+
+
+			
+			
+			
+			<!--
+			<li>
+				<div class="row">
+					<div class="form-group col-md-10 col-md-offset-1">
+						Email:
+						<input type="text" class="form-control" placeholder="Email">
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group col-md-10 col-md-offset-1">
+						Password:
+						<input type="Password" class="form-control">
+					</div>
+				</div>
+				<div class="row">
+					<div class="navbar-btn text-center">
+						<a class="btn btn-primary col-md-10 col-md-offset-1" ui-sref="login">Login</a>
+
+					</div>
+				</div>
+			</li>
+		-->
+
+	</ul>
+</div>
+
+<div class="navbar navbar-default navbar-fixed-top">
+	<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+</div>
+</div>

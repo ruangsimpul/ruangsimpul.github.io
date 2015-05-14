@@ -1,0 +1,32 @@
+<h4>INI HALAMAN settings unuk events</h4>
+	{{events}}
+<table class="table">
+	<thead>
+		<tr>
+			<td>Events</td>
+			<td>Date</td>
+			<td>Location</td>
+			<td>Watcher</td>
+			<td>Action</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><input type="text" ng-model="namefilter" placeholder="filter by Name"></td>
+			<td><input type="text" ng-model="locationfilter" placeholder="filter by Location"></td>
+			<td><input type="text" ng-model="datefilter" placeholder="filter by Date"></td>
+			<td><input type="text" ng-model="watchfilter" placeholder="filter by Watcher"></td>
+			<td><button class="btn btn-primary" ng-click="openModal()">Add New Events</button></td>
+		</tr>
+		<tr ng-repeat="e in events | filter:namefilter | filter:locationfilter | filter:datefilter | filter:watchfilter">
+			<td><a ui-sref="dashboard.detail({eventId:$index})">{{$index}} {{e.name}}</a></td>
+			<td>{{e.location}}</td>
+			<td>{{e.date}}</td>
+			<td>watcher</td>
+			<td>
+				<a href="#" class="btn btn-default">Edit</a>
+				<a ng-click="deleteEvent(e)" class="btn btn-danger">Delete</a>
+			</td>
+		</tr>
+	</tbody>
+</table>

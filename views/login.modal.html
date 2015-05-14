@@ -1,0 +1,41 @@
+
+<div class="modal-body">
+	<div ng-show="error" class="alert alert-danger" role="alert">
+		{{error}}
+	</div>
+	<div ng-show="message" class="alert alert-info" role="alert">
+		{{message}
+	</div>
+	Email : {{email}} Password : {{password}}
+
+
+	<div class="col-xs-12">
+		<div class="form-group">
+			Email:
+			<input type="text" class="form-control" ng-model="email" placeholder="Email">
+		</div>
+		<div class="form-group">
+			Password:
+			<input type="Password" class="form-control" ng-model="password">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<input type="submit" tabindex="4" class="form-control btn btn-primary" value="Log In" ng-click="login(email,password)">
+		</div>
+	</div>
+	<br/>
+	<div class="row">
+		<div class="col-xs-12">
+			<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-info" value="Register as Subsriber" ng-click="createUser('subscriber')">
+		</div>
+	</div>
+	<br/>
+	<div class="row">
+		<div class="col-xs-12">
+			<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-success" value="Register as Manager" ng-click="createUser('manager')">
+		</div>
+	</div>
+	
+</div>

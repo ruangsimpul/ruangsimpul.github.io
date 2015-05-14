@@ -1,7 +1,38 @@
 'use strict';
 
-app.controller('homeController', function($scope,offCanvas,$modal) {
-	this.toggle = offCanvas.toggle;
+app.controller('sideController', ['$scope','$location','MyAuth','$modal', function($scope,$location,MyAuth,$modal){
+	$scope.testhello = "test lagi";
+	$scope.isCollapsed = true;
+
+	MyAuth.$onAuth(function(authData){
+		$scope.authData = authData;
+	});
+	
+	$scope.openLoginModal = function(){
+		$modal.open({
+			animation: true,
+      		templateUrl: 'views/login.modal.html',
+      		controller: 'ModalLoginController',
+      		size:'sm'
+		});
+	};
+
+	$scope.logout =function(){
+		MyAuth.$unauth();
+		$location.path('/home');
+	};
+
+
+	// IsActiveMenu
+	$scope.isActive = function(path){
+		return path === $location.path();
+	};
+
+
+	
+}])
+.controller('homeController',['$scope','MyAuth',function($scope,MyAuth) {
+	
 	$scope.events = [
 	/*
 		{
@@ -11,43 +42,13 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 			logo: 'img/logoamisca.jpg',
 			time: '28 agustus 2014',
 			description: 'Oktan adalah olimpiade kimia tingkat nasional yang diselenggarakan oleh himpunan mahasiswa kimia "amisca" '
-		},
-		{
-			name:'Oprec OSKM',
-			location: 'bandung',
-			poster: 'img/posteroskm.jpg',
-			logo: 'img/logooskm.jpg',
-			time: '21 april 2014',
-			description: 'Panitia OSKM membuka open recruitment untuk menyambut mahasiswa baru'
-		},
-		{
-			name:'itb in move',
-			location: 'itb',
-			poster: 'img/posterinmove.jpg',
-			logo: 'img/logokabinet.png',
-			time: '28 agustus 2014',
-			description: 'ITB inmove adalah gerakan mempertemukan para kreator sehingga bisa berkolaborasi.'
-		},
-		{
-			name:'Pasar Seni',
-			location: 'bandung',
-			poster: 'img/posterpasarseni.jpg',
-			logo: 'img/logokmsr.jpg',
-			time: '21 april 2014',
-			description: 'Pasar seni adalah event super langka yang diselenggarakan oleh KMSR(Keluarga Mahasiswa Seni Rupa). Temukan ...'
-		},
-		{
-			name:'Pengumuman Penerima Beasiswa',
-			location: 'bandung',
-			poster: 'img/posterlpdp.png',
-			logo: 'img/itb2.jpg',
-			time: '13 maret 2014',
-			description: 'Berikut adalah daftar penerima informasi beasiswa LPDP oleh Lembaga Kemahasiswaan'
 		}
 		*/
 	];
 
-
+	MyAuth.$onAuth(function(authData){
+		$scope.authData = authData;
+	});
 	
 
 
@@ -55,7 +56,85 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 	$scope.tesfungsi = function(){
 		alert('helloworld');
 	};
-}).controller('navCtrl', function(offCanvas,$scope, $auth) {
+}])
+.controller('loginController', ['$scope','$location','MyAuth', function($scope,$location,MyAuth){
+	$scope.hello = "world";
+
+	// Login 
+	$scope.login = function(email, pass) {
+		$scope.err = null;
+		MyAuth.$authWithPassword({ email: email, password: pass }, {rememberMe: false})
+		.then(function(/* user */) {
+			$location.path('/events');
+		}, function(err) {
+			$scope.error = errMessage(err);
+		});
+	};
+
+	// Register
+	$scope.createUser = function(){
+		$scope.message = null;
+		$scope.error = null;
+
+		MyAuth.$createUser({
+			email: $scope.email,
+			password: $scope.password
+		}).then(function() {
+			return MyAuth.$authWithPassword({ email: email, password: pass });
+		}).then(function(userData) {
+			$scope.message = "User created with uid: " + userData.uid;
+		}).catch(function(error) {
+			$scope.error = error;
+		});
+	}
+
+	// ErrorMessagetampilan
+	function errMessage(err) {
+		return angular.isObject(err) && err.code? err.code : err + '';
+	}
+
+
+}])
+.controller('eventsController', ['$scope',function($scope){
+	$scope.hai = "events controller";
+}])
+.controller('dashboardController', ['$scope','$location', function($scope,$location){
+	$scope.salam = "ini dari dashboard";
+
+	// IsActiveMenu
+	$scope.isActive = function(path){
+		return path === $location.path();
+	};
+
+}])
+.controller('dashboardOrganizationController', ['$scope', function($scope){
+	$scope.hello = "world";
+}])
+.controller('dashboardEventsController', ['$scope','MyEvents','$modal', function($scope,MyEvents,$modal){
+	$scope.hello = "wirld";
+
+
+	// populate array
+	$scope.events = MyEvents;
+	
+	$scope.openModal = function(){
+		$modal.open({
+			animation: true,
+      		templateUrl: 'views/dashboard.events.modal.html',
+      		controller: 'ModalEventController',
+      		size:'lg'
+		});
+	};
+
+	$scope.deleteEvent = function(event){
+		console.log('test');
+		MyEvents.$remove(event);
+	};
+
+}])
+
+/*
+.controller('navCtrl', function(offCanvas,$scope, $auth) {
 	this.toggle = offCanvas.toggle;
 	this.name="test dong";
 
@@ -71,24 +150,58 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 
 }]).controller('OffCanvasCtrl',function($scope,$modal){
 	
-	$scope.open = function () {
-		var modalInstance = $modal.open({
-			animation: true,
-			templateUrl: 'partials/partial-modal-login.html',
-			controller: 'ModalLoginController',
-			size: 'sm',
-		});
+	
+})*/
+.controller('ModalEventController', ['$scope','MyEvents','$modalInstance','$filter', function($scope,MyEvents,$modalInstance,$filter){
+	// konfigurasi untuk date picker
+	$scope.minDate = new Date();
+	$scope.dateOptions = {
+		formatYear: 'yy',
+		startingDay: 1
+	};
 
-		modalInstance.result.then(function () {
-		}, function () {
-			console.log('Modal dismissed at: ' + new Date());
+
+	// open popup picker
+	$scope.open = function($event) {
+		$event.preventDefault();
+		$event.stopPropagation();
+		$scope.opened = true;
+	};
+
+	$scope.addEvent = function(){
+		MyEvents.$add({
+			name:$scope.event.name,
+			date:$filter('date')($scope.event.date,'dd-MM-yyyy'),
+			location:$scope.event.location,
+			description:$scope.event.description
+		});
+	}
+
+	$scope.closeModal = function(){
+		$modalInstance.close();	
+	}
+}])
+.controller('eventManageController', ['$scope','$stateParams', function($scope,$stateParams){
+	$scope.hello = $stateParams;
+}])
+.controller('ModalLoginController',['$scope','MyAuth','$location','$modal','$modalInstance','MyUsers',function($scope,MyAuth,$location,$modal,$modalInstance,MyUsers){
+
+	$scope.email ="fawwazmuhammad@gmail.com";
+	$scope.password = "password";
+	// CREATE USER DIPINDAHKAN
+	$scope.login = function(email, pass) {
+		$scope.err = null;
+		MyAuth.$authWithPassword({ email: email, password: pass }, {rememberMe: false})
+		.then(function(/* user */) {
+			$location.path('/events');
+			$modalInstance.close();
+		}, function(err) {
+			$scope.error = errMessage(err);
 		});
 	};
-	
-}).controller('ModalLoginController',['$scope','MyAuth','$location',function($scope,MyAuth,$location){
 
-	// Register new user
-	$scope.createUser = function(){
+	// Register
+	$scope.createUser = function(registeredAs){
 		$scope.message = null;
 		$scope.error = null;
 
@@ -96,32 +209,30 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 			email: $scope.email,
 			password: $scope.password
 		}).then(function(userData) {
+			// tamahin ke profile
+			MyUsers.$add({uid: userData.uid, role: registeredAs});
 			$scope.message = "User created with uid: " + userData.uid;
+		}).then(function(){
+			MyAuth.$authWithPassword({ email: $scope.email, password: $scope.password }, {rememberMe: false})
+		}).then(function(/* user */) {
+				$location.path('/events');
+				$modalInstance.close();
+			}, function(err) {
+				$scope.error = errMessage(err);
 		}).catch(function(error) {
-			$scope.error = error;
+			$scope.error = errMessage(error);
 		});
 	}
 
+	// ErrorMessagetampilan
+	function errMessage(err) {
+		return angular.isObject(err) && err.code? err.code : err + '';
+	}
+	
 
-
-	$scope.email = 'fawwazmuhammad@gmail.com';
-	$scope.password = 'password';
-
-	$scope.login = function(email, pass) {
-		$scope.err = null;
-		MyAuth.$authWithPassword({ email: email, password: pass }, {rememberMe: false})
-		.then(function(/* user */) {
-			$location.path('/events');
-		}, function(err) {
-			$scope.err = errMessage(err);
-		});
-	};
-
-	$scope.logout = function(){
-		MyAuth.$unauth();
-	};
-
-}]).controller('eventsController',['$scope','MyEvents','currentAuth','MyAuth','$location',function($scope,MyEvents,currentAuth,MyAuth,$location){
+}])
+/*
+.controller('eventsController',['$scope','MyEvents','currentAuth','MyAuth','$location',function($scope,MyEvents,currentAuth,MyAuth,$location,$modal,$modalInstance){
 	$scope.helo = 'world';
 	$scope.events = MyEvents;
 	$scope.event={'name':'name1','location':'location1','date':'tes'}
@@ -138,10 +249,12 @@ app.controller('homeController', function($scope,offCanvas,$modal) {
 	$scope.logout = function(){
 		//alert("Test");
 		MyAuth.$unauth();
-		$location.path('/login');
+		$location.path('/home');
 	}
 
-}]).controller('eventDetailController',['$scope','$stateParams',function($scope,$stateParams){
+}])
+*/
+.controller('eventDetailController',['$scope','$stateParams',function($scope,$stateParams){
 	$scope.hello = "world";
 	$scope.state = $stateParams.eventId;
 }]);
