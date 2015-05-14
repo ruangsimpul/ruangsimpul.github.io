@@ -20,7 +20,7 @@ app.run(['$rootScope','$state','$modal',function($rootScope, $state,$modal){
 
 app.config(['$stateProvider', '$urlRouterProvider', '$authProvider',function($stateProvider, $urlRouterProvider, $authProvider) {
 	
-	//$urlRouterProvider.otherwise('/home');
+	$urlRouterProvider.otherwise('/home');
 
 	$stateProvider
         // HOME STATES AND NESTED VIEWS ========================================
