@@ -36,22 +36,17 @@
 					<textarea class="form-control" id="textarea" name="textarea" ng-model="event.description">Deskripsi Event</textarea>
 				</div>
 			</div>
-
-	
-			<label path="title">Title:</label>
-            <div class="form_controls">
-                <input type="text" class="form-control" placeholder="Title" ng-model="title"/>
-            </div>
-
+			
 			<!-- Textarea -->
 			<div class="form-group">
-				<label class="col-md-2 control-label" for="textarea">Poster</label>
+				<label class="col-md-2 control-label" for="textarea">Poster Event</label>
 				<div class="col-md-10">                     
 					<button ngf-select ng-model="files" class="btn btn-info">Select file</button>
 				</div>
 			</div>
 
 			<h2>Status</h2>
+			Preview : <img src="{{file.result.url}}">
 			<div class="file" ng-repeat="file in files">
 				<h3>{{file.name}}</h3>
 				<div class="status">{{file.status}}</div>

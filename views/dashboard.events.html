@@ -1,5 +1,5 @@
-<h4>INI HALAMAN settings unuk events</h4>
-	{{events}}
+<p>	Berikut adalah halaman untuk manajemen acara</p>
+{{events}}
 <table class="table">
 	<thead>
 		<tr>
@@ -19,7 +19,7 @@
 			<td><button class="btn btn-primary" ng-click="openModal()">Add New Events</button></td>
 		</tr>
 		<tr ng-repeat="e in events | filter:namefilter | filter:locationfilter | filter:datefilter | filter:watchfilter">
-			<td><a ui-sref="dashboard.detail({eventId:$index})">{{$index}} {{e.name}}</a></td>
+			<td><a ui-sref="dashboard.detail({eventId:e.$id})">{{e.name}}</a></td>
 			<td>{{e.location}}</td>
 			<td>{{e.date}}</td>
 			<td>watcher</td>

@@ -154,7 +154,7 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 	
 	
 })*/
-.controller('ModalEventController', ['$scope','MyEvents','$modalInstance','$filter','Upload','$rootScope', function($scope,MyEvents,$modalInstance,$filter,Upload,$rootScope){
+.controller('ModalEventController', ['$scope','MyEvents','$modalInstance','$filter','Upload','$rootScope','MyPhotos', function($scope,MyEvents,$modalInstance,$filter,Upload,$rootScope,MyPhotos){
 	// konfigurasi untuk date picker
 	$scope.minDate = new Date();
 	$scope.dateOptions = {
@@ -224,8 +224,56 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 	};
 
 }])
-.controller('eventManageController', ['$scope','$stateParams', function($scope,$stateParams){
-	$scope.hello = $stateParams;
+.controller('eventManageController', ['$scope','$stateParams','MyPhotos','MyEvents','Upload','$rootScope', function($scope,$stateParams,MyPhotos,MyEvents,Upload,$rootScope){
+	
+	var eventId  = $stateParams.eventId;
+	var photoobj = MyPhotos(eventId);
+	$scope.event = MyEvents.$getRecord(eventId);
+
+	$scope.$watch('files',function(){
+		$scope.doupload($scope.files);
+	});
+
+	$scope.doupload = function(files){
+		if (!$scope.files) return;
+		$scope.files.forEach(function(file){
+			$scope.upload = Upload.upload({
+				url: "https://api.cloudinary.com/v1_1/" +"akunp2akunp2" + "/upload",
+				method : 'POST',
+				fields:{
+					upload_preset: 'nzgnorda',
+					tags: 'myphotoalbum',
+					context:'photo=' + $scope.title
+				},
+				file: file
+			}).progress(function (e) {
+				console.log(Math.round((e.loaded * 100.0) / e.total));
+				file.progress = Math.round((e.loaded * 100.0) / e.total);
+				file.status = "Uploading... " + file.progress + "%";
+				if(!$scope.$$phase) {
+					$scope.$apply();
+				}
+			}).success(function (data, status, headers, config) {
+				console.log("fired");
+				$rootScope.photos = $rootScope.photos || [];
+				data.context = {custom: {photo: $scope.title}};
+				file.result = data;
+				$scope.retvaldariserver=data;
+				$rootScope.photos.push(data);
+				if(!$scope.$$phase) {
+					$scope.$apply();
+				}
+
+				// Tambahan, store photo object item baru 
+				photoobj.$add(file.result.url);
+				
+			}).error(function(err){
+				console.log(err);
+			});
+		});
+	};
+
+
 }])
 .controller('ModalLoginController',['$scope','MyAuth','$location','$modal','$modalInstance','MyUsers',function($scope,MyAuth,$location,$modal,$modalInstance,MyUsers){
 
