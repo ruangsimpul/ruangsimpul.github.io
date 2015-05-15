@@ -100,6 +100,13 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 	$scope.events = MyEvents;
 	
 }])
+.controller('eventController', ['$scope','MyEvents','$stateParams', function($scope,MyEvents,$stateParams){
+	//$scope.ada = $stateParams.eventId;
+	$scope.event = MyEvents.$getRecord($stateParams.eventId);
+	$scope.world= "test";
+	
+
+}])
 .controller('dashboardController', ['$scope','$location', function($scope,$location){
 	$scope.salam = "ini dari dashboard";
 
@@ -218,7 +225,7 @@ app.controller('sideController', ['$scope','$location','MyAuth','$modal', functi
 					$scope.$apply();
 				}
 				// ini harusnya the event adalah constructor yang dipassing sama event id dan harusnya disave
-				alert("ini harusnya the event adalah constructor yang dipassing sama event id dan harusnya disave")
+				//alert("ini harusnya the event adalah constructor yang dipassing sama event id dan harusnya disave")
 				$scope.event.posterpic = file.result.url;
 				TheEvent.$save();
 

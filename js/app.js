@@ -38,7 +38,12 @@ app.config(['$stateProvider', '$urlRouterProvider', '$authProvider',function($st
             controllerAs: 'ectrl',
             templateUrl:'views/events.html'
         })
-        // Terdiri dasi dashboard/settings/ dashboard/notification kalau dia apply
+        .state('event',{
+            url:'/event/:eventId',
+            controller:'eventController',
+            controllerAs:'evdctrl',
+            templateUrl:'views/event.html' // lain kali mending yang detailscontroller diilangin aja
+        })
         .state('dashboard',{
             url:'/dashboard',
             controller: 'dashboardController',

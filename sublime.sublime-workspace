@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"paddi",
+				"padding"
+			],
+			[
+				"photo",
+				"photoobj"
+			],
+			[
 				"My",
-				"MyUsers"
+				"MyEvents"
 			],
 			[
 				"border",
@@ -506,67 +514,32 @@
 			[
 				"script",
 				"script_file"
-			],
-			[
-				"load",
-				"load_helper	CI - Load Helper File"
-			],
-			[
-				"fun",
-				"function"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "views/dashboard.html",
+			"file": "views/home.html",
 			"settings":
 			{
-				"buffer_size": 1094,
+				"buffer_size": 318,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/controllers.js",
+			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 5273,
+				"buffer_size": 2645,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<h4>INI HALAMAN settings unuk events {{events}}</h4>\n\n<table class=\"table\">\n	<thead>\n		<td></td>\n	</thead>\n</table>",
-			"file": "views/dashboard.events.html",
-			"file_size": 117,
-			"file_write_time": 130760796320732937,
+			"file": "views/about.html",
 			"settings":
 			{
-				"buffer_size": 115,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/sidemenu.html",
-			"settings":
-			{
-				"buffer_size": 2173,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2362,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 5510,
+				"buffer_size": 3191,
 				"line_ending": "Windows"
 			}
 		}
@@ -574,9 +547,21 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"enablepacka",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -584,10 +569,6 @@
 			[
 				"installpa",
 				"Package Control: Install Package"
-			],
-			[
-				"ssht",
-				"Set Syntax: HTML"
 			],
 			[
 				"installpac",
@@ -835,18 +816,44 @@
 	},
 	"file_history":
 	[
-		"/E/OPENSHIFT/ruangsimpul/client/css/style.css",
-		"/E/OPENSHIFT/angularfire-seed/app/login/login.js",
-		"/E/OPENSHIFT/ruangsimpul/client/views/login.html",
-		"/E/OPENSHIFT/ruangsimpul/client/views/login.modal.html",
-		"/E/OPENSHIFT/ruangsimpul/client/views/sidemenu.html",
-		"/E/OPENSHIFT/ruangsimpul/client/views/home.html",
-		"/E/OPENSHIFT/ruangsimpul/client/index.html",
-		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.html",
 		"/E/OPENSHIFT/ruangsimpul/client/js/app.js",
 		"/E/OPENSHIFT/ruangsimpul/client/views/events.html",
-		"/E/OPENSHIFT/ruangsimpul/client/js/controllers.js",
 		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.events.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.events.manage.html",
+		"/E/OPENSHIFT/ruangsimpul/client/index.html",
+		"/E/OPENSHIFT/ruangsimpul/client/js/controllers.js",
+		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.events.modal.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.html",
+		"/E/OPENSHIFT/ruangsimpul/client/css/style.css",
+		"/E/OPENSHIFT/ruangsimpul/client/views/home.html",
+		"/E/OPENSHIFT/ruangsimpul/client/css/style2.css",
+		"/E/OPENSHIFT/ruangsimpul/client/bower_components/components-font-awesome/css/font-awesome.min.css",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/partials/photo-list.html",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/partials/photo-upload.html",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/js/app.js",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/bower_components/cloudinary_ng/samples/photo_album/app/partials/photo-upload.html",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/js/controllers.js",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/js/config.js",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/node_modules/bower/node_modules/update-notifier/node_modules/.bin/latest-version",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/js/services.js",
+		"/E/OPENSHIFT/ruangsimpul/client/bower_components/ng-file-upload/ng-file-upload.js",
+		"/E/OPENSHIFT/ruangsimpul/client/bower_components/ng-file-upload/README.md",
+		"/E/OPENSHIFT/ruangsimpul/client/bower_components/ng-file-upload/ng-file-upload-all.min.js",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/server.bat",
+		"/E/OPENSHIFT/ruangsimpul/client/bower_components/cloudinary_js/js/jquery.cloudinary.js",
+		"/E/OPENSHIFT/ruangsimpul/client/js/cloudinary_config.js",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/index.html",
+		"/E/OPENSHIFT/ruangsimpul/client/bower_components/cloudinary_js/js/load-image.min.js",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/bower_components/angular/angular.js",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/js/animations.js",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/package.json",
+		"/E/OPENSHIFT/ruangsimpul/client/bower_components/angular/package.json",
+		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/js/config.js.sample",
+		"/E/OPENSHIFT/ruangsimpul/client/views/login.modal.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/sidemenu.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/partial-events.html",
+		"/E/OPENSHIFT/angularfire-seed/app/login/login.js",
+		"/E/OPENSHIFT/ruangsimpul/client/views/login.html",
 		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.organization.html",
 		"/E/OPENSHIFT/ruangsimpul/client/server.bat",
 		"/E/OPENSHIFT/ruangsimpul/client/views/partial-modal-login.html",
@@ -936,43 +943,21 @@
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/testmfc.scp",
 		"/C/Users/Asus/AppData/Roaming/Sublime Text 2/Packages/Insert Nums/Default (Windows).sublime-keymap",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetest.scp",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetrain.scp",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/testmfc.scp",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/trainmfc.scp",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FC.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/InBracket.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/CompositeFeatureFactory.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeaturePipeline.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BinaryFeatureFactory.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BinaryFeaturePipe.java",
-		"/E/HTK/HTK-samples-3.3/samples/HTKTutorial/prompts2wlist",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/dictionary",
-		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-details.html",
-		"/E/eclipse3/MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/wordlist",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/parsed",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/grammar",
-		"/E/eclipse3/mycron/src/cronjava/MyCron.java",
-		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-offcanvas.html",
-		"/E/eclipse3/MyTokenizer/src/MyFilter.java",
-		"/E/TA/mallet-2.0.7/sandboxTA",
-		"/E/TA/mallet-2.0.7/raw_tweet_final.sql",
-		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-home.html",
-		"/E/OPENSHIFT/ruangsimpul/client/css/tumblr-card.css",
-		"/E/eclipse3/MyTokenizer/database lokal 26-04-15.sql"
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetrain.scp"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"E:\\OPENSHIFT\\cloudinary_angular",
+			"E:\\OPENSHIFT\\cloudinary_angular\\app",
+			"E:\\OPENSHIFT\\cloudinary_angular",
+			"E:\\OPENSHIFT\\angularfire-seed\\app,E:\\OPENSHIFT\\cloudinary_angular",
 			"E:\\OPENSHIFT\\angularfire-seed\\app",
 			"E:\\OPENSHIFT\\angularfire-seed",
 			"E:\\OPENSHFIT\\angularfire-seed,E:\\OPENSHIFT\\angularfire-seed",
@@ -1029,6 +1014,44 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"status",
+			"h2",
+			"col-md-6",
+			"TheEvent",
+			"theevent",
+			"$add",
+			"TheEvent",
+			"the",
+			"theevent",
+			"MyPhotos",
+			"TheEvent",
+			"Event",
+			"MyPhotos",
+			"MyEvents",
+			"$firebaseArray",
+			"manage",
+			"modal",
+			"modalinstance",
+			"modal",
+			"\">",
+			"upload_preset",
+			"album",
+			"ng-file-upload",
+			".controller",
+			"js",
+			"config.js",
+			"controller",
+			"letter",
+			"letters",
+			"eventsController",
+			"ng-model",
+			"$scope",
+			"description",
+			"name",
+			"col-md-3",
+			"col-md-8",
+			"col-md-4",
+			"datefilter",
 			"td",
 			"tr>td",
 			"td",
@@ -1118,45 +1141,7 @@
 			"setsource",
 			"source",
 			"carrier",
-			"source",
-			"pipe",
-			"testoption",
-			"test",
-			"train",
-			"source",
-			"'\\n\\n",
-			";",
-			"(?<=;)(\\w+)",
-			"(<?=;)(\\w+)",
-			"sarkasme",
-			"negatif",
-			"netral",
-			"negatif",
-			"(?<=;)(\\w+)",
-			"(?<=;)(positif|negatif|sarkasme|netral)",
-			"(?<=;)(?>positif|negatif|sarkasme|netral)",
-			";",
-			"root",
-			"crfoptimizablebybatchlabellikelihood",
-			"iterationsoption",
-			"math.exp",
-			"math",
-			"Math.exp",
-			"ex[",
-			"WEIGHTS NAME",
-			"Weights NAME",
-			"dictionary",
-			"defaultlabel",
-			"factors",
-			"print",
-			"labels:",
-			"viterbioutputoption",
-			"labels",
-			"logger",
-			"logger.",
-			" logger",
-			"logger",
-			"System.out.println"
+			"source"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1245,72 +1230,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "views/dashboard.html",
+					"file": "views/home.html",
 					"settings":
 					{
-						"buffer_size": 1094,
+						"buffer_size": 318,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								547,
-								547
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/controllers.js",
-					"settings":
-					{
-						"buffer_size": 5273,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2710,
-								2710
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1308.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/dashboard.events.html",
-					"settings":
-					{
-						"buffer_size": 115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
+								279,
+								279
 							]
 						],
 						"settings":
@@ -1324,83 +1255,55 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "views/sidemenu.html",
+					"buffer": 1,
+					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 2173,
+						"buffer_size": 2645,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								494,
-								531
+								1639,
+								1639
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 2362,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1400,
-								1400
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "js/app.js",
-					"settings":
-					{
-						"buffer_size": 5510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4982,
-								4990
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1560.0,
+						"translation.y": 936.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/about.html",
+					"settings":
+					{
+						"buffer_size": 3191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1458,16 +1361,220 @@
 		"selected_items":
 		[
 			[
-				"dashboard.events",
-				"views/dashboard.events.html"
+				"about.h",
+				"client/views/about.html"
 			],
 			[
-				"app.js",
-				"js/app.js"
+				"style.css",
+				"client/css/style.css"
+			],
+			[
+				"home.html",
+				"client/views/home.html"
+			],
+			[
+				"home.",
+				"client/views/home.html"
+			],
+			[
+				"style",
+				"client/css/style.css"
+			],
+			[
+				"home",
+				"client/views/home.html"
+			],
+			[
+				"home.tml",
+				"client/views/home.html"
+			],
+			[
+				"inde",
+				"client/index.html"
+			],
+			[
+				"style2",
+				"client/css/style2.css"
+			],
+			[
+				"events.modal",
+				"client/views/dashboard.events.modal.html"
+			],
+			[
+				"eventsmanage",
+				"client/views/dashboard.events.manage.html"
+			],
+			[
+				"dashboard.modal",
+				"client/views/dashboard.events.modal.html"
+			],
+			[
+				"dashboard.events",
+				"client/views/dashboard.events.html"
 			],
 			[
 				"index.html",
-				"index.html"
+				"client/index.html"
+			],
+			[
+				"events",
+				"client/views/events.html"
+			],
+			[
+				"controller",
+				"client/js/controllers.js"
+			],
+			[
+				"manage.html",
+				"client/views/dashboard.events.manage.html"
+			],
+			[
+				"dashboard.manage",
+				"client/views/dashboard.events.manage.html"
+			],
+			[
+				"dashboard",
+				"client/views/dashboard.events.html"
+			],
+			[
+				"dash",
+				"client/views/dashboard.html"
+			],
+			[
+				"index.",
+				"client/index.html"
+			],
+			[
+				"app.",
+				"client/js/app.js"
+			],
+			[
+				"dashboard.eventmanage",
+				"client/views/dashboard.events.manage.html"
+			],
+			[
+				"app.js",
+				"client/js/app.js"
+			],
+			[
+				"photo-list",
+				"cloudinary_angular/samples/photo_album/app/partials/photo-list.html"
+			],
+			[
+				"photo-upload",
+				"cloudinary_angular/samples/photo_album/app/partials/photo-upload.html"
+			],
+			[
+				"photoupload",
+				"cloudinary_angular/samples/photo_album/app/partials/photo-upload.html"
+			],
+			[
+				"config.js",
+				"cloudinary_angular/samples/photo_album/app/js/config.js"
+			],
+			[
+				"controllers",
+				"cloudinary_angular/samples/photo_album/app/js/controllers.js"
+			],
+			[
+				"services",
+				"cloudinary_angular/samples/photo_album/app/js/services.js"
+			],
+			[
+				"controllerjs",
+				"cloudinary_angular/samples/photo_album/app/js/controllers.js"
+			],
+			[
+				"events.modal.",
+				"client/views/dashboard.events.modal.html"
+			],
+			[
+				"controller.js",
+				"client/js/controllers.js"
+			],
+			[
+				"index",
+				"client/index.html"
+			],
+			[
+				"dashboarmodal",
+				"client/views/dashboard.events.modal.html"
+			],
+			[
+				"controller.",
+				"cloudinary_angular/samples/photo_album/app/js/controllers.js"
+			],
+			[
+				"upload",
+				"cloudinary_angular/samples/photo_album/app/partials/photo-upload.html"
+			],
+			[
+				"conroller.js",
+				"client/js/controllers.js"
+			],
+			[
+				"cloudinarcontroller",
+				"cloudinary_angular/samples/photo_album/app/js/controllers.js"
+			],
+			[
+				"newphoto",
+				"cloudinary_angular/samples/photo_album/bower_components/cloudinary_ng/samples/photo_album/app/partials/photo-upload.html"
+			],
+			[
+				"photolis",
+				"cloudinary_angular/samples/photo_album/app/partials/photo-list.html"
+			],
+			[
+				"cloudinary.js",
+				"client/bower_components/cloudinary_js/js/jquery.cloudinary.js"
+			],
+			[
+				"cloudinarconfig.js",
+				"cloudinary_angular/samples/photo_album/app/js/config.js"
+			],
+			[
+				"cloudicontroller",
+				"cloudinary_angular/samples/photo_album/app/js/controllers.js"
+			],
+			[
+				"cloudinarindex.",
+				"cloudinary_angular/samples/photo_album/app/index.html"
+			],
+			[
+				"cloudinpackage.json",
+				"cloudinary_angular/samples/photo_album/package.json"
+			],
+			[
+				"package.json",
+				"client/bower_components/angular/package.json"
+			],
+			[
+				"contr",
+				"js/controllers.js"
+			],
+			[
+				"events.h",
+				"views/events.html"
+			],
+			[
+				"partial-",
+				"views/partial-events.html"
+			],
+			[
+				"dashboar.events",
+				"views/dashboard.events.html"
+			],
+			[
+				"dashboard.events.modal",
+				"views/dashboard.events.modal.html"
+			],
+			[
+				"login.modal",
+				"views/login.modal.html"
+			],
+			[
+				"dashboar.modal",
+				"views/dashboard.events.modal.html"
 			],
 			[
 				"sideme",
@@ -1478,20 +1585,12 @@
 				"js/controllers.js"
 			],
 			[
-				"dashboard",
-				"views/dashboard.html"
-			],
-			[
 				"dashboard.",
 				"views/dashboard.organization.html"
 			],
 			[
 				"sidem",
 				"views/sidemenu.html"
-			],
-			[
-				"style",
-				"css/style.css"
 			],
 			[
 				"login.html",
@@ -1506,20 +1605,8 @@
 				"css/style.css"
 			],
 			[
-				"style.css",
-				"css/style.css"
-			],
-			[
-				"home",
-				"views/home.html"
-			],
-			[
 				"dashboar",
 				"client/views/dashboard.html"
-			],
-			[
-				"events",
-				"client/views/events.html"
 			],
 			[
 				"control",
@@ -1527,10 +1614,6 @@
 			],
 			[
 				"cont",
-				"client/js/controllers.js"
-			],
-			[
-				"controller",
 				"client/js/controllers.js"
 			],
 			[
@@ -1788,186 +1871,6 @@
 			[
 				"linegroupte",
 				"mallet-2.0.7/src/cc/mallet/pipe/LineGroupString2TokenSequence.java"
-			],
-			[
-				"printtarget",
-				"mallet-2.0.7/src/cc/mallet/pipe/PrintInputAndTarget.java"
-			],
-			[
-				"featurevectorsequence",
-				"mallet-2.0.7/src/cc/mallet/types/FeatureVectorSequence.java"
-			],
-			[
-				"linegroup",
-				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
-			],
-			[
-				"linegroupiterator",
-				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
-			],
-			[
-				"linegroupiterat",
-				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
-			],
-			[
-				"stringtokenization",
-				"mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java"
-			],
-			[
-				"featurefactory",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java"
-			],
-			[
-				"featurefactor",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java"
-			],
-			[
-				"trainer",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/Trainer.java"
-			],
-			[
-				"crfsequencelear",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
-			],
-			[
-				"basicnerfeaturefactor",
-				"MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java"
-			],
-			[
-				"sequencelearner",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java"
-			],
-			[
-				"runnetatrai",
-				"mallet-2.0.7/runnerTATrainer.bat"
-			],
-			[
-				"filter",
-				"MyTokenizer/src/MyFilter.java"
-			],
-			[
-				"sandbox",
-				"mallet-2.0.7/sandboxTA"
-			],
-			[
-				"eventscon",
-				"kibar/app/Http/Controllers/EventsController.php"
-			],
-			[
-				"routes",
-				"kibar/app/Http/routes.php"
-			],
-			[
-				"create.blade",
-				"kibar/resources/views/events/create.blade.php"
-			],
-			[
-				"config/app",
-				"kibar/config/app.php"
-			],
-			[
-				"createb",
-				"kibar/resources/views/events/create.blade.php"
-			],
-			[
-				"index.blade",
-				"kibar/resources/views/events/index.blade.php"
-			],
-			[
-				"show.blade",
-				"kibar/resources/views/events/show.blade.php"
-			],
-			[
-				"eventcontro",
-				"kibar/app/Http/Controllers/EventsController.php"
-			],
-			[
-				"eventscontrolle",
-				"kibar/app/Http/Controllers/EventsController.php"
-			],
-			[
-				"routes.php",
-				"kibar/app/Http/routes.php"
-			],
-			[
-				"event",
-				"kibar/app/Event.php"
-			],
-			[
-				"create_table",
-				"kibar/database/migrations/2015_04_24_074020_create_table_events.php"
-			],
-			[
-				"nerd",
-				"kibar/app/Models/nerd.php"
-			],
-			[
-				"user",
-				"kibar/app/User.php"
-			],
-			[
-				"nerdcontroller",
-				"kibar/app/Http/Controllers/NerdController.php"
-			],
-			[
-				"nerdcontro",
-				"kibar/app/Http/Controllers/NerdController.php"
-			],
-			[
-				"nerdcont",
-				"kibar/app/Http/Controllers/NerdController.php"
-			],
-			[
-				"namedentity",
-				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java"
-			],
-			[
-				"crftrainerbylabe",
-				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
-			],
-			[
-				"runerta",
-				"mallet-2.0.7/runnerTATrainer.bat"
-			],
-			[
-				"runner",
-				"mallet-2.0.7/runnerTATest.bat"
-			],
-			[
-				"crfoptimizablebybatch",
-				"mallet-2.0.7/src/cc/mallet/fst/CRFOptimizableByBatchLabelLikelihood.java"
-			],
-			[
-				"crftrainerbylabelli",
-				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
-			],
-			[
-				"crftrainerby",
-				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByLabelLikelihood.java"
-			],
-			[
-				"runnertrainer",
-				"mallet-2.0.7/runnerTATrainer.bat"
-			],
-			[
-				"matrixops",
-				"mallet-2.0.7/src/cc/mallet/types/MatrixOps.java"
-			],
-			[
-				"runnereva",
-				"mallet-2.0.7/runnerTAEvaluate.bat"
-			],
-			[
-				"sparsevector",
-				"mallet-2.0.7/src/cc/mallet/types/SparseVector.java"
-			],
-			[
-				"featuresequence",
-				"mallet-2.0.7/src/cc/mallet/types/FeatureSequence.java"
-			],
-			[
-				"sequencelearneroption",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearnerOptions.java"
 			]
 		],
 		"width": 0.0
