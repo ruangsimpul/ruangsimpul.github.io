@@ -520,26 +520,51 @@
 	"buffers":
 	[
 		{
-			"file": "views/home.html",
+			"file": "js/controllers.js",
 			"settings":
 			{
-				"buffer_size": 318,
+				"buffer_size": 9577,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/style.css",
+			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 2645,
+				"buffer_size": 6584,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "views/about.html",
+			"file": "views/event.html",
 			"settings":
 			{
-				"buffer_size": 3191,
+				"buffer_size": 4130,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style-forum.css",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Windows",
+				"name": ".thumbnail {"
+			}
+		},
+		{
+			"contents": "<div class=\"container\">\n	<div class=\"row\">\n		<div class=\"col-sm-12\">\n			<h3>User Comment Example</h3>\n		</div><!-- /col-sm-12 -->\n	</div><!-- /row -->\n	\n	<div class=\"row\">\n		<div class=\"col-sm-1\">\n			<div class=\"thumbnail\">\n				<img class=\"img-responsive user-photo\" src=\"https://ssl.gstatic.com/accounts/ui/avatar_2x.png\">\n			</div><!-- /thumbnail -->\n		</div><!-- /col-sm-1 -->\n\n		<div class=\"col-sm-5\">\n			<div class=\"panel panel-default\">\n				<div class=\"panel-heading\">\n					<strong>myusername</strong> <span class=\"text-muted\">commented 5 days ago</span>\n				</div>\n				<div class=\"panel-body\">\n					Panel content\n				</div><!-- /panel-body -->\n			</div><!-- /panel panel-default -->\n		</div><!-- /col-sm-5 -->\n\n		<div class=\"col-sm-1\">\n			<div class=\"thumbnail\">\n				<img class=\"img-responsive user-photo\" src=\"https://ssl.gstatic.com/accounts/ui/avatar_2x.png\">\n			</div><!-- /thumbnail -->\n		</div><!-- /col-sm-1 -->\n\n		<div class=\"col-sm-5\">\n			<div class=\"panel panel-default\">\n				<div class=\"panel-heading\">\n					<strong>myusername</strong> <span class=\"text-muted\">commented 5 days ago</span>\n				</div>\n				<div class=\"panel-body\">\n					Panel content\n				</div><!-- /panel-body -->\n			</div><!-- /panel panel-default -->\n		</div><!-- /col-sm-5 -->\n	</div><!-- /row -->\n\n</div><!-- /container -->",
+			"settings":
+			{
+				"buffer_size": 1310,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/events.html",
+			"settings":
+			{
+				"buffer_size": 1439,
 				"line_ending": "Windows"
 			}
 		}
@@ -547,11 +572,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 242.0,
 		"selected_items":
 		[
 			[
 				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sshtml",
 				"Set Syntax: HTML"
 			],
 			[
@@ -573,10 +602,6 @@
 			[
 				"installpac",
 				"Package Control: Install Package"
-			],
-			[
-				"sshtml",
-				"Set Syntax: HTML"
 			],
 			[
 				"sshtm",
@@ -816,16 +841,20 @@
 	},
 	"file_history":
 	[
-		"/E/OPENSHIFT/ruangsimpul/client/js/app.js",
+		"/E/OPENSHIFT/ruangsimpul/client/index.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/home.html",
+		"/E/OPENSHIFT/ruangsimpul/client/css/style.css",
+		"/E/OPENSHIFT/ruangsimpul/client/views/about.html",
+		"/E/OPENSHIFT/ruangsimpul/client/js/controllers.js",
 		"/E/OPENSHIFT/ruangsimpul/client/views/events.html",
+		"/E/OPENSHIFT/ruangsimpul/client/js/app.js",
+		"/E/OPENSHIFT/ruangsimpul/client/views/event.html",
+		"/E/OPENSHIFT/ruangsimpul/client/views/partial-details.html",
+		"/E/OPENSHIFT/ruangsimpul/client/js/event.html",
 		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.events.html",
 		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.events.manage.html",
-		"/E/OPENSHIFT/ruangsimpul/client/index.html",
-		"/E/OPENSHIFT/ruangsimpul/client/js/controllers.js",
 		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.events.modal.html",
 		"/E/OPENSHIFT/ruangsimpul/client/views/dashboard.html",
-		"/E/OPENSHIFT/ruangsimpul/client/css/style.css",
-		"/E/OPENSHIFT/ruangsimpul/client/views/home.html",
 		"/E/OPENSHIFT/ruangsimpul/client/css/style2.css",
 		"/E/OPENSHIFT/ruangsimpul/client/bower_components/components-font-awesome/css/font-awesome.min.css",
 		"/E/OPENSHIFT/cloudinary_angular/samples/photo_album/app/partials/photo-list.html",
@@ -939,11 +968,7 @@
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/template/README-preparation.txt",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/fawwaz/nama fawwaz.txt",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/template/log.txt",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/testmfc.scp",
-		"/C/Users/Asus/AppData/Roaming/Sublime Text 2/Packages/Insert Nums/Default (Windows).sublime-keymap",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetest.scp",
-		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetrain.scp"
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/template/log.txt"
 	],
 	"find":
 	{
@@ -951,7 +976,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"E:\\OPENSHIFT\\cloudinary_angular",
@@ -1014,6 +1039,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"alert",
+			"css",
+			"{",
+			".panel ",
+			".panel",
+			"eventcontroller",
+			"stateparams",
+			"s",
+			"eventmanagecontroller",
+			"eventcontroller",
+			"params",
+			"event",
+			"myevents",
+			"id",
+			"event",
+			"events",
 			"status",
 			"h2",
 			"col-md-6",
@@ -1125,23 +1166,7 @@
 			"@infobdgevent",
 			"nbestoption",
 			"e",
-			"p",
-			"i",
-			"u",
-			"a",
-			"tree.hed",
-			"wintri",
-			"E:\\kuliah\\NLP\\tugas\\asr\\tuts\\suara",
-			"source is ",
-			"Anotasi silahkan di",
-			"pipe",
-			"crf.getinputpipe",
-			"`raw_tweet`",
-			"raw_tweet",
-			"setsource",
-			"source",
-			"carrier",
-			"source"
+			"p"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1225,28 +1250,112 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "views/home.html",
+					"file": "js/controllers.js",
 					"settings":
 					{
-						"buffer_size": 318,
+						"buffer_size": 9577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								279,
-								279
+								5650,
+								5650
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2648.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 6584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1686,
+								1688
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/event.html",
+					"settings":
+					{
+						"buffer_size": 4130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3784,
+								3784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 643.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style-forum.css",
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".thumbnail {",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1255,52 +1364,52 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "css/style.css",
+					"buffer": 4,
 					"settings":
 					{
-						"buffer_size": 2645,
+						"buffer_size": 1310,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1639,
-								1639
+								174,
+								716
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 936.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "views/about.html",
+					"buffer": 5,
+					"file": "views/events.html",
 					"settings":
 					{
-						"buffer_size": 3191,
+						"buffer_size": 1439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								226,
-								226
+								900,
+								900
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1361,6 +1470,50 @@
 		"selected_items":
 		[
 			[
+				"index.html",
+				"client/index.html"
+			],
+			[
+				"controller",
+				"client/js/controllers.js"
+			],
+			[
+				"control",
+				"client/js/controllers.js"
+			],
+			[
+				"app.js",
+				"client/js/app.js"
+			],
+			[
+				"controller.js",
+				"client/js/controllers.js"
+			],
+			[
+				"events.",
+				"client/views/events.html"
+			],
+			[
+				"event.htm",
+				"client/views/event.html"
+			],
+			[
+				"controllers",
+				"client/js/controllers.js"
+			],
+			[
+				"event.html",
+				"client/views/event.html"
+			],
+			[
+				"events.html",
+				"client/views/events.html"
+			],
+			[
+				"partial-detail",
+				"client/views/partial-details.html"
+			],
+			[
 				"about.h",
 				"client/views/about.html"
 			],
@@ -1413,16 +1566,8 @@
 				"client/views/dashboard.events.html"
 			],
 			[
-				"index.html",
-				"client/index.html"
-			],
-			[
 				"events",
 				"client/views/events.html"
-			],
-			[
-				"controller",
-				"client/js/controllers.js"
 			],
 			[
 				"manage.html",
@@ -1453,10 +1598,6 @@
 				"client/views/dashboard.events.manage.html"
 			],
 			[
-				"app.js",
-				"client/js/app.js"
-			],
-			[
 				"photo-list",
 				"cloudinary_angular/samples/photo_album/app/partials/photo-list.html"
 			],
@@ -1473,10 +1614,6 @@
 				"cloudinary_angular/samples/photo_album/app/js/config.js"
 			],
 			[
-				"controllers",
-				"cloudinary_angular/samples/photo_album/app/js/controllers.js"
-			],
-			[
 				"services",
 				"cloudinary_angular/samples/photo_album/app/js/services.js"
 			],
@@ -1487,10 +1624,6 @@
 			[
 				"events.modal.",
 				"client/views/dashboard.events.modal.html"
-			],
-			[
-				"controller.js",
-				"client/js/controllers.js"
 			],
 			[
 				"index",
@@ -1607,10 +1740,6 @@
 			[
 				"dashboar",
 				"client/views/dashboard.html"
-			],
-			[
-				"control",
-				"client/js/controllers.js"
 			],
 			[
 				"cont",
@@ -1851,26 +1980,6 @@
 			[
 				"charsequencelexer",
 				"mallet-2.0.7/src/cc/mallet/util/CharSequenceLexer.java"
-			],
-			[
-				"charsequence2token",
-				"mallet-2.0.7/src/cc/mallet/pipe/CharSequence2TokenSequence.java"
-			],
-			[
-				"runnertaevaluat",
-				"mallet-2.0.7/runnerTAEvaluate.bat"
-			],
-			[
-				"runnertate",
-				"mallet-2.0.7/runnerTATest.bat"
-			],
-			[
-				"linegroupiterato",
-				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
-			],
-			[
-				"linegroupte",
-				"mallet-2.0.7/src/cc/mallet/pipe/LineGroupString2TokenSequence.java"
 			]
 		],
 		"width": 0.0
